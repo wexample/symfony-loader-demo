@@ -1,9 +1,7 @@
-import App from '@wexample/symfony-loader/js/Class/App';
-import AppService from '@wexample/symfony-loader/js/Class/AppService';
-import VueService from '@wexample/symfony-loader/js/Services/VueService';
+import AppDemo from '../../layouts/demo/class/AppDemo';
 
-export default class extends App {
-  getServices(): (typeof AppService | [typeof AppService, any[]])[] {
-    return [...super.getServices(), ...[VueService]];
-  }
-}
+// The app the test pages run in: the demo's, which is the host's. The test
+// layout extends the host's chrome like the demo one does, and that chrome
+// needs the host's services — a list kept here would miss the next one the
+// header grows, and the page would hang mounting it.
+export default class TestApp extends AppDemo {}

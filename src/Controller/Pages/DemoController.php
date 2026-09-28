@@ -4,6 +4,7 @@ namespace Wexample\SymfonyLoaderTesting\Controller\Pages;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyLoader\Rendering\RenderPass;
@@ -18,6 +19,7 @@ final class DemoController extends AbstractPagesController
 
     private bool $useJs = true;
 
+    #[MenuItem('loader_demo', 0)]
     #[Route(path: '', name: self::ROUTE_INDEX)]
     final public function index(): Response
     {

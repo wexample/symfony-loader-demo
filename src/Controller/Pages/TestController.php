@@ -5,6 +5,7 @@ namespace Wexample\SymfonyLoaderTesting\Controller\Pages;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyLoaderTesting\Traits\SymfonyLoaderTestingBundleClassTrait;
@@ -19,6 +20,7 @@ final class TestController extends AbstractPagesController
     final public const ROUTE_INDEX = VariableHelper::INDEX;
     final public const ROUTE_VIEW = VariableHelper::VIEW;
 
+    #[MenuItem('loader_demo', 1)]
     #[Route(path: '', name: self::ROUTE_INDEX)]
     final public function index(Request $request): Response
     {
