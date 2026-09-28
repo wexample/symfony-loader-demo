@@ -14,7 +14,8 @@ report:
   expected: Attendu
   received: Obtenu
   error: Erreur inattendue
-  fixtures: Éléments manipulés par les tests
+  fixtures: Fixtures
+  fixtures_hint: ce que les tests lisent et modifient
   state:
     running: En cours
     passed: Tout est passé

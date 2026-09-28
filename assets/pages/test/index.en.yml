@@ -15,7 +15,8 @@ report:
   expected: Expected
   received: Received
   error: Unexpected error
-  fixtures: Fixtures the tests work on
+  fixtures: Fixtures
+  fixtures_hint: what the tests read and write
   state:
     running: Running
     passed: All passed

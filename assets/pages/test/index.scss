@@ -1,16 +1,6 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
 @use '@wexample/symfony-design-system/components/marker/marker';
 
-.responsive-tester {
-  display: flex;
-
-  .test-responsive {
-    background-color: #666666;
-    border: 2px solid #666666;
-    margin: 1rem;
-    padding: 1rem;
-  }
-}
 
 // The run: a header saying where it stands, then a fold per test class.
 .test-report {
@@ -180,7 +170,120 @@
   overflow-wrap: anywhere;
 }
 
-.test-report--fixtures {
+// The fixtures, read the way a system is: a mono panel with its bar, each
+// probe on a line of its own under a key. The keys are drawn by the stylesheet
+// alone — a test reads the text of these elements, and a word added inside
+// them would change what it reads. Their colours are the tests' too: a probe
+// turning green is the loader saying it ran.
+.test-fixtures {
   margin-top: var(--space-5);
+  border: var(--border-default);
+  border-radius: var(--radius-box);
+  background: var(--surface-1);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-2);
+  overflow: hidden;
+}
+
+.test-fixtures--bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: var(--border-separator);
   color: var(--text-color-muted);
+}
+
+.test-fixtures--title {
+  color: var(--color-default-text);
+  font-weight: var(--font-weight-strong);
+}
+
+.test-fixtures--body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  line-height: 1.6;
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 var(--space-4);
+    border-left: var(--border-separator);
+    list-style: none;
+  }
+
+  li::before {
+    content: '› ';
+    color: var(--text-color-subtle);
+  }
+
+  // A line that is only a place — the playground a test fills, the component
+  // nested in its parent — has nothing to point at.
+  li:empty::before,
+  li:has(> [class*="test-component"])::before {
+    content: none;
+  }
+}
+
+// A key before each probe of the page, the way a log names its source.
+.test-string::before,
+#test-layout-translation::before,
+#test-layout-component::before {
+  display: inline-block;
+  min-width: 14ch;
+  color: var(--color-cat-lavender-23);
+}
+
+.test-string::before {
+  content: 'page.string';
+}
+
+#test-layout-translation::before {
+  content: 'layout.trans';
+}
+
+#test-layout-component::before {
+  content: 'component';
+  display: block;
+}
+
+// A component under test is a group, named by its own first line.
+[class*="test-component-string"]:not([class*="translated"]) {
+  color: var(--color-cat-aqua-23);
+  font-weight: var(--font-weight-strong);
+}
+
+[class*="test-component-string-translated"] {
+  display: inline;
+  color: var(--color-cat-sunflower-23);
+}
+
+// What the component's script and stylesheet paint when they have run: a
+// capsule, empty-looking until one of them fills it.
+[class*="test-component-test-js"],
+[class*="test-component-test-css"] {
+  display: inline-block;
+  padding: 0 var(--space-1);
+  border: 1px solid var(--color-cat-grass-23);
+  border-radius: var(--radius-pill);
+  color: var(--color-default-text);
+  font-size: var(--font-size-1);
+  line-height: 1.5;
+}
+
+// The responsive probe: one chip per breakpoint, the one the page is at lit
+// by its own stylesheet.
+.responsive-tester {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+
+  .test-responsive {
+    padding: var(--space-1) var(--space-3);
+    border: var(--border-separator);
+    border-radius: var(--radius-pill);
+    color: var(--text-color-muted);
+  }
 }

@@ -9,7 +9,6 @@ export default class TestManagerPage extends Page {
     const report = new TestReport(this.el.querySelector('.test-report'));
 
     for (const [name, testDefinition] of Object.entries(tests) as [string, any][]) {
-      console.log("===============================");
       report.suiteStart(name);
 
       let test: UnitTest;
@@ -26,7 +25,6 @@ export default class TestManagerPage extends Page {
       }
 
       for (const method of test.getTestMethods() as Function[]) {
-        console.log("---");
         report.methodStart(method.name.replace(/^bound /, '') || 'anonymous');
 
         try {

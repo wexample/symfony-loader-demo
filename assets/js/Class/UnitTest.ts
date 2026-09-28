@@ -11,28 +11,13 @@ export default abstract class extends AppChild {
   public report?: TestReport;
 
   assertEquals(value: any, expected: any, message?: string, fatal: boolean = true) {
-    let styleDefault = 'border-radius:10rem;';
     message = message || expected;
     const passed = value === expected;
 
     this.report?.assertion({ passed, message: String(message ?? ''), value, expected });
 
-    if (!passed) {
-      console.log(
-        '%c Fail ',
-        `background: #FFCCCC; color: #880000; ${styleDefault}`,
-        `Assertion failed, ${value} is not equal to expected value : ${expected}. ${message || ''}`
-      );
-
-      if (fatal) {
-        throw new AssertionFailure(String(message ?? 'UNIT TEST ERROR'));
-      }
-    } else {
-      console.log(
-        '%c Success ',
-        `background: #00FF00; color: #002200; ${styleDefault}`,
-        message || expected
-      );
+    if (!passed && fatal) {
+      throw new AssertionFailure(String(message ?? 'UNIT TEST ERROR'));
     }
   }
 

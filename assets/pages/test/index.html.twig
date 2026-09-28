@@ -40,14 +40,20 @@
         {%- endfor -%}
     </section>
 
-    {#- What the tests read and write: kept as they are, under the report, and
-        laid out — a test measures the playground, which a closed fold would
-        leave without a size. -#}
-    <section class="test-report--fixtures">
-        <h2>{{ '@page::report.fixtures' | trans }}</h2>
-        <div class="test-string">TESTS PAGE</div>
-        <div id="test-layout-translation">{{ '@layout::secondGroup.first' | trans }}</div>
-        <div id="test-layout-component">{{ component(render_pass, '@WexampleSymfonyLoaderTestingBundle/components/test-component', {testOption:true}) }}</div>
-        <div id="test-playground"></div>
+    {#- What the tests read and write, kept as they are: a test reads their
+        text and their colours, so only the panel around them is the page's. It
+        stays laid out, a test measuring the playground inside it. -#}
+    <section class="test-fixtures">
+        <div class="test-fixtures--bar">
+            {{ icon('ph:bold/flask') }}
+            <span class="test-fixtures--title">{{ '@page::report.fixtures' | trans }}</span>
+            <span class="test-fixtures--hint">{{ '@page::report.fixtures_hint' | trans }}</span>
+        </div>
+        <div class="test-fixtures--body">
+            <div class="test-string">TESTS PAGE</div>
+            <div id="test-layout-translation">{{ '@layout::secondGroup.first' | trans }}</div>
+            <div id="test-layout-component">{{ component(render_pass, '@WexampleSymfonyLoaderTestingBundle/components/test-component', {testOption:true}) }}</div>
+            <div id="test-playground"></div>
+        </div>
     </section>
 {% endblock %}
