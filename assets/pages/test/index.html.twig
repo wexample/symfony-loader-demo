@@ -18,9 +18,36 @@
 {%- endblock -%}
 
 {%- block page_body -%}
-    <div class="tests-results"></div>
-    <div class="test-string">TESTS PAGE</div>
-    <div id="test-layout-translation">{{ '@layout::secondGroup.first' | trans }}</div>
-    <div id="test-layout-component">{{ component(render_pass, '@WexampleSymfonyLoaderTestingBundle/components/test-component', {testOption:true}) }}</div>
-    <div id="test-playground"></div>
+    {#- The run, drawn by the page as it goes: a header saying where it stands,
+        then one fold per test class — open when something in it failed. -#}
+    <section class="test-report"
+             data-label-expected="{{ '@page::report.expected' | trans }}"
+             data-label-received="{{ '@page::report.received' | trans }}"
+             data-label-error="{{ '@page::report.error' | trans }}">
+        <header class="test-report--head">
+            <span class="test-report--state"></span>
+            <span class="test-report--total-passed">{{ marker('success', '@page::report.passed' | trans, { count: 0, compact: true }) }}</span>
+            <span class="test-report--total-failed">{{ marker('error', '@page::report.failed' | trans, { count: 0, compact: true }) }}</span>
+            <span class="test-report--duration text-secondary"></span>
+        </header>
+        <div class="test-report--suites"></div>
+
+        {%- for state, tone in { running: 'running', passed: 'success', failed: 'error' } -%}
+            <template data-name="state-{{ state }}">{{ marker(tone, ('@page::report.state.' ~ state) | trans) }}</template>
+        {%- endfor -%}
+        {%- for name, glyph in { pass: 'ph:bold/check-circle', fail: 'ph:bold/x-circle', error: 'ph:bold/warning-circle', running: 'ph:bold/circle-notch' } -%}
+            <template data-name="icon-{{ name }}"><span class="test-report--icon test-report--icon--{{ name }}" aria-hidden="true">{{ icon(glyph) }}</span></template>
+        {%- endfor -%}
+    </section>
+
+    {#- What the tests read and write: kept as they are, under the report, and
+        laid out — a test measures the playground, which a closed fold would
+        leave without a size. -#}
+    <section class="test-report--fixtures">
+        <h2>{{ '@page::report.fixtures' | trans }}</h2>
+        <div class="test-string">TESTS PAGE</div>
+        <div id="test-layout-translation">{{ '@layout::secondGroup.first' | trans }}</div>
+        <div id="test-layout-component">{{ component(render_pass, '@WexampleSymfonyLoaderTestingBundle/components/test-component', {testOption:true}) }}</div>
+        <div id="test-playground"></div>
+    </section>
 {% endblock %}

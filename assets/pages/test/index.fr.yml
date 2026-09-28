@@ -7,3 +7,15 @@ firstGroup:
 
 secondGroup:
   first: First
+
+report:
+  passed: Réussis
+  failed: Échoués
+  expected: Attendu
+  received: Obtenu
+  error: Erreur inattendue
+  fixtures: Éléments manipulés par les tests
+  state:
+    running: En cours
+    passed: Tout est passé
+    failed: Des échecs

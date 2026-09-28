@@ -8,3 +8,15 @@ firstGroup:
 
 secondGroup:
   first: First
+
+report:
+  passed: Passed
+  failed: Failed
+  expected: Expected
+  received: Received
+  error: Unexpected error
+  fixtures: Fixtures the tests work on
+  state:
+    running: Running
+    passed: All passed
+    failed: Some failed

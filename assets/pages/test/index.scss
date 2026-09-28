@@ -1,4 +1,5 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/components/marker/marker';
 
 .responsive-tester {
   display: flex;
@@ -11,10 +12,175 @@
   }
 }
 
-.tests-results {
-  @extend .block;
+// The run: a header saying where it stands, then a fold per test class.
+.test-report {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
 
-  background: rgba(125, 125, 125, .1);
-  // Avoid debug infos to override page content.
-  min-height: 10rem;
+.test-report--head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-box);
+  background: var(--surface-1);
+}
+
+// The whole header says how the run ended, by its edge.
+.test-report[data-state="passed"] .test-report--head {
+  box-shadow: inset 4px 0 0 var(--color-success-fill);
+}
+
+.test-report[data-state="failed"] .test-report--head {
+  box-shadow: inset 4px 0 0 var(--color-error-fill);
+}
+
+.test-report--duration {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.test-report--suites {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.test-report--suite {
+  border-radius: var(--radius-box);
+  background: var(--surface-1);
+  overflow: hidden;
+}
+
+.test-report--suite-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+.test-report--suite--failed > .test-report--suite-head {
+  background: var(--color-error-4);
+}
+
+.test-report--suite-name {
+  font-weight: var(--font-weight-strong);
+}
+
+.test-report--suite-count {
+  margin-left: auto;
+  color: var(--text-color-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.test-report--methods {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  border-top: var(--border-separator);
+}
+
+.test-report--method-name {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-2);
+  color: var(--text-color-muted);
+}
+
+.test-report--method--failed > .test-report--method-name {
+  color: var(--color-error-23);
+}
+
+.test-report--assertions {
+  margin: var(--space-1) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.test-report--assertion {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: var(--space-2);
+  align-items: baseline;
+  padding: var(--space-1) 0;
+
+  > .test-report--diff,
+  > .test-report--stack {
+    grid-column: 2;
+  }
+}
+
+.test-report--assertion--fail,
+.test-report--assertion--error {
+  .test-report--message {
+    color: var(--color-error-23);
+    font-weight: var(--font-weight-strong);
+  }
+}
+
+.test-report--icon {
+  display: inline-flex;
+}
+
+.test-report--icon--pass {
+  color: var(--color-success-fill);
+}
+
+.test-report--icon--fail,
+.test-report--icon--error {
+  color: var(--color-error-fill);
+}
+
+.test-report--icon--running {
+  color: var(--text-color-muted);
+}
+
+// What was expected and what came, one above the other so they line up.
+.test-report--diff {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-1) var(--space-3);
+  margin: var(--space-2) 0 var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-box);
+  background: var(--color-error-4);
+  font-size: var(--font-size-2);
+
+  dt {
+    color: var(--text-color-muted);
+  }
+
+  dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  code {
+    font-family: var(--font-family-mono);
+  }
+}
+
+.test-report--stack {
+  margin: var(--space-2) 0 var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-box);
+  background: var(--surface-2, var(--surface-1));
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-1);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.test-report--fixtures {
+  margin-top: var(--space-5);
+  color: var(--text-color-muted);
 }
