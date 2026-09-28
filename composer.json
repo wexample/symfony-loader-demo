@@ -1,9 +1,9 @@
 {
-  "name": "wexample/symfony-loader-testing",
+  "name": "wexample/symfony-loader-demo",
   "description": "A dynamic rendering system for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "5.0.10",
+  "version": "5.0.11",
   "keywords": [
     "symfony-ux"
   ],

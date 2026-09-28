@@ -4,9 +4,9 @@ domains: []
 git:
   publication_strategy: main_push
 global:
-  name: symfony_loader_testing
+  name: symfony_loader_demo
   type: app
-  version: 5.0.10
+  version: 5.0.11
 wex:
   migration: 7
   version: 6.0.136
