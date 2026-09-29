@@ -1,0 +1,19 @@
+page_title: Demo
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: Komponenteninitialisierung
+    intro: 'Es gibt mehrere Möglichkeiten, eine Komponente an ein DOM-Element zu binden. Jede Methode bestimmt, welches Element die Komponente als Wurzel verwenden wird.'
+init:
+  parent:
+    title: 'Über das übergeordnete Element'
+    body: 'Die Komponente verwendet ihr enthaltendes DOM-Element als Wurzel.'
+  previous:
+    title: 'Über das vorherige Element'
+    body: 'Die Komponente verwendet das vorhergehende Geschwister-DOM-Element als Wurzel.'
+  class:
+    title: 'Über eine CSS-Klasse'
+    body: 'Die Komponente verwendet das DOM-Element, das die automatisch generierte CSS-Klasse trägt, als Wurzel.'
+  server_side:
+    title: 'Server-seitige Komponente'
+    body: 'Erzeugt von einer PHP-Klasse auf dem Server. Ermöglicht das Lesen von Dateien, Abfragen der Datenbank, die Nutzung von Diensten oder das Ändern des Seiteninhalts während des Renderns.'

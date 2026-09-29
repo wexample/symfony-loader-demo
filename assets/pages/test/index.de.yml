@@ -1,0 +1,21 @@
+page_title: Tests
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: Erster
+  second: Zweiter
+  third: Dritter
+secondGroup:
+  first: Erster
+report:
+  passed: Bestanden
+  failed: Fehlgeschlagen
+  expected: Erwartet
+  received: Erhalten
+  error: 'Unerwarteter Fehler'
+  empty: 'Keine Assertion ausgeführt — ein Versprechen nicht abgewartet?'
+  fixtures: Fixtures
+  fixtures_hint: 'was die Tests lesen und schreiben'
+  state:
+    running: 'Wird ausgeführt'
+    passed: 'Alle bestanden'
+    failed: 'Einige fehlgeschlagen'

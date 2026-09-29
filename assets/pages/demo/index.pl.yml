@@ -1,0 +1,19 @@
+page_title: Demo
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 'Inicjalizacja komponentu'
+    intro: 'Istnieje kilka sposobów powiązania komponentu z elementem DOM. Każda metoda określa, który element komponent będzie używał jako swój korzeń.'
+init:
+  parent:
+    title: 'Przez rodzica'
+    body: 'Komponent używa swojego zawierającego elementu DOM jako swojego korzenia.'
+  previous:
+    title: 'Przez poprzedni element'
+    body: 'Komponent używa poprzedniego elementu rodzeństwa DOM jako swojego korzenia.'
+  class:
+    title: 'Przez klasę CSS'
+    body: 'Komponent używa elementu DOM noszącego automatycznie generowaną klasę CSS jako swojego korzenia.'
+  server_side:
+    title: 'Komponent po stronie serwera'
+    body: 'Generowany przez klasę PHP na serwerze. Umożliwia odczyt plików, zapytania do bazy danych, korzystanie z usług lub modyfikację treści strony podczas renderowania.'

@@ -1,0 +1,21 @@
+page_title: آزمون‌ها
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: اول
+  second: دوم
+  third: سوم
+secondGroup:
+  first: اول
+report:
+  passed: 'قبول شد'
+  failed: 'رد شد'
+  expected: 'انتظار می‌رفت'
+  received: 'دریافت شد'
+  error: 'خطای غیرمنتظره'
+  empty: 'هیچ تستی اجرا نشد — آیا وعده‌ای منتظر مانده است؟'
+  fixtures: تجهیزات
+  fixtures_hint: 'آنچه که تست‌ها می‌خوانند و می‌نویسند'
+  state:
+    running: 'در حال اجرا'
+    passed: 'همه قبول شدند'
+    failed: 'برخی رد شدند'

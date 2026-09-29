@@ -1,0 +1,9 @@
+firstGroup:
+  first: الأول
+  second: الثاني
+  third: الثالث
+secondGroup:
+  first: 'اختبار ترجمة خادم التخطيط'
+string:
+  client_side: 'ترجمة تخطيط الجانب العميل'
+  server_side: 'ترجمة تخطيط الجانب الخادم'

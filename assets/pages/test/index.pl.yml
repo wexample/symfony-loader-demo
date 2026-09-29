@@ -1,0 +1,21 @@
+page_title: Testy
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: Pierwszy
+  second: Drugi
+  third: Trzeci
+secondGroup:
+  first: Pierwszy
+report:
+  passed: Zaliczono
+  failed: 'Nie zaliczono'
+  expected: Oczekiwano
+  received: Otrzymano
+  error: 'Nieoczekiwany błąd'
+  empty: 'Nie wykonano żadnych asercji — obietnica nie została oczekiwana?'
+  fixtures: 'Dane testowe'
+  fixtures_hint: 'to, co testy odczytują i zapisują'
+  state:
+    running: 'W trakcie'
+    passed: 'Wszystkie zaliczone'
+    failed: 'Niektóre niezaliczone'

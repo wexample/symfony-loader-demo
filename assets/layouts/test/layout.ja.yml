@@ -1,0 +1,9 @@
+firstGroup:
+  first: 最初
+  second: 第二
+  third: 第三
+secondGroup:
+  first: テスト_レイアウト_サーバー_翻訳
+string:
+  client_side: クライアント側レイアウト翻訳
+  server_side: サーバー側レイアウト翻訳

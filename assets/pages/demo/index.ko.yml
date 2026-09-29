@@ -1,0 +1,19 @@
+page_title: 데모
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: '컴포넌트 초기화'
+    intro: '컴포넌트를 DOM 요소에 바인딩하는 방법은 여러 가지가 있습니다. 각 방법은 컴포넌트가 사용할 루트 요소를 결정합니다.'
+init:
+  parent:
+    title: '부모를 통해'
+    body: '컴포넌트는 포함된 DOM 요소를 루트로 사용합니다.'
+  previous:
+    title: '이전 요소를 통해'
+    body: '컴포넌트는 이전 형제 DOM 요소를 루트로 사용합니다.'
+  class:
+    title: 'CSS 클래스를 통해'
+    body: '컴포넌트는 자동 생성된 CSS 클래스를 가진 DOM 요소를 루트로 사용합니다.'
+  server_side:
+    title: '서버 측 컴포넌트'
+    body: '서버의 PHP 클래스에 의해 생성됩니다. 파일 읽기, 데이터베이스 쿼리, 서비스 사용 또는 렌더링 중 페이지 콘텐츠 변경을 허용합니다.'

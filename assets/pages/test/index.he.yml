@@ -1,0 +1,21 @@
+page_title: מבחנים
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: ראשון
+  second: שני
+  third: שלישי
+secondGroup:
+  first: ראשון
+report:
+  passed: עבר
+  failed: נכשל
+  expected: צפוי
+  received: התקבל
+  error: 'שגיאה בלתי צפויה'
+  empty: 'לא רצה שום אסרט — הבטחה שלא המתנו לה?'
+  fixtures: תצורות
+  fixtures_hint: 'מה שהמבחנים קוראים וכותבים'
+  state:
+    running: רץ
+    passed: 'הכל עבר'
+    failed: 'חלק נכשלו'

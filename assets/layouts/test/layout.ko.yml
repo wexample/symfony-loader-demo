@@ -1,0 +1,9 @@
+firstGroup:
+  first: '첫 번째'
+  second: '두 번째'
+  third: '세 번째'
+secondGroup:
+  first: 테스트_레이아웃_서버_번역
+string:
+  client_side: 클라이언트_측_레이아웃_번역
+  server_side: 서버_측_레이아웃_번역

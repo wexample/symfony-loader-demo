@@ -1,0 +1,9 @@
+firstGroup:
+  first: Ensimmäinen
+  second: Toinen
+  third: Kolmas
+secondGroup:
+  first: TESTI_ASETELMA_PALVELIN_KÄÄNNÖS
+string:
+  client_side: ASIANTUNTIJA_PUOLI_ASETELMA_KÄÄNNÖS
+  server_side: PALVELIN_PUOLI_ASETELMA_KÄÄNNÖS

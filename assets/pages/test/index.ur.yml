@@ -1,0 +1,21 @@
+page_title: ٹیسٹ
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: پہلا
+  second: دوسرا
+  third: تیسرا
+secondGroup:
+  first: پہلا
+report:
+  passed: پاس
+  failed: ناکام
+  expected: متوقع
+  received: موصولہ
+  error: 'غیر متوقع خرابی'
+  empty: 'کوئی دعویٰ نہیں چلا — کیا وعدہ پورا نہیں ہوا؟'
+  fixtures: فکسچر
+  fixtures_hint: 'جو ٹیسٹ پڑھتے اور لکھتے ہیں'
+  state:
+    running: 'چل رہا ہے'
+    passed: 'تمام پاس'
+    failed: 'کچھ ناکام'

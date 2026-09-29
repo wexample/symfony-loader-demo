@@ -1,0 +1,9 @@
+firstGroup:
+  first: Primero
+  second: Segundo
+  third: Tercero
+secondGroup:
+  first: PRUEBA_TRADUCCIÓN_SERVIDOR_LAYOUT
+string:
+  client_side: TRADUCCIÓN_LAYOUT_CLIENTE
+  server_side: TRADUCCIÓN_LAYOUT_SERVIDOR

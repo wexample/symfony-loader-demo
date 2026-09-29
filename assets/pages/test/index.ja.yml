@@ -1,0 +1,21 @@
+page_title: テスト
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: 最初
+  second: 第二
+  third: 第三
+secondGroup:
+  first: 最初
+report:
+  passed: 成功
+  failed: 失敗
+  expected: 期待される結果
+  received: 実際の結果
+  error: 予期しないエラー
+  empty: 'アサーションが実行されていません — プロミスが待機されていない？'
+  fixtures: フィクスチャ
+  fixtures_hint: テストが読み書きするもの
+  state:
+    running: 実行中
+    passed: すべて成功
+    failed: いくつかが失敗
