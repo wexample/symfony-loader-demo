@@ -1,0 +1,19 @@
+page_title: 演示
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 组件初始化
+    intro: 有几种方法可以将组件绑定到DOM元素。每种方法确定组件将使用哪个元素作为其根。
+init:
+  parent:
+    title: 通过父元素
+    body: 组件使用其包含的DOM元素作为根。
+  previous:
+    title: 通过前一个元素
+    body: 组件使用前一个兄弟DOM元素作为根。
+  class:
+    title: 通过CSS类
+    body: 组件使用携带自动生成CSS类的DOM元素作为根。
+  server_side:
+    title: 服务器端组件
+    body: 由服务器上的PHP类生成。允许在渲染期间读取文件、查询数据库、使用服务或修改页面内容。
