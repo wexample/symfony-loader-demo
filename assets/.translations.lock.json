@@ -1,0 +1,64 @@
+{
+    "layouts/demo/layout.fr.yml": {
+        "menu_design_system.navigation.group.generic.title": {
+            "hash": "1bd8346cbeee50bc1353c0c571a09245",
+            "engine": "syrtis"
+        }
+    },
+    "pages/demo/index.fr.yml": {
+        "init.class.body": {
+            "hash": "c1a5b96a2c464298ecf5841c9bc72200",
+            "engine": "syrtis"
+        },
+        "init.class.title": {
+            "hash": "c017cd359e3e750666d08bdc3fb2193a",
+            "engine": "syrtis"
+        },
+        "init.parent.body": {
+            "hash": "47b589a70b2959d3be27344860f5d084",
+            "engine": "syrtis"
+        },
+        "init.parent.title": {
+            "hash": "5abc4316c368ad7dfca001bc5f2c66b7",
+            "engine": "syrtis"
+        },
+        "init.previous.body": {
+            "hash": "84cc46cf438966527f85eb1f61c91ff2",
+            "engine": "syrtis"
+        },
+        "init.previous.title": {
+            "hash": "34d917a7bef689a5878ce4fe2f26cde4",
+            "engine": "syrtis"
+        },
+        "init.server_side.body": {
+            "hash": "902ecf2da26f6ddf52a872f0f4e49dab",
+            "engine": "syrtis"
+        },
+        "init.server_side.title": {
+            "hash": "1e7485305811e3f64ef2e6890e89fc2c",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "f0a3ff380e7b3aec1b52cc8be43b1ad7",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "a48e24a494348726525020c599db78e4",
+            "engine": "syrtis"
+        },
+        "section.init.intro": {
+            "hash": "d8643fb9732313c7a541fd762ec991ba",
+            "engine": "syrtis"
+        },
+        "section.init.title": {
+            "hash": "d01bfd7bb05752d25d1f806c8556f220",
+            "engine": "syrtis"
+        }
+    },
+    "pages/test/index.fr.yml": {
+        "page_icon": {
+            "hash": "abcfe94a66e65adf4e4d6d7b3216a046",
+            "engine": "syrtis"
+        }
+    }
+}
