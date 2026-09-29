@@ -1,4 +1,6 @@
 import Page from '@wexample/symfony-loader/js/Class/Page';
+import RenderNode from '@wexample/symfony-loader/js/Class/RenderNode';
+import AbstractOverlayPageManager from '@wexample/symfony-design-system/js/Class/AbstractOverlayPageManager';
 import UnitTest, { AssertionFailure } from './UnitTest';
 import TestReport from './TestReport';
 
@@ -34,11 +36,35 @@ export default class TestManagerPage extends Page {
           // The assertion that threw is already in the report.
           report.methodEnd(error instanceof AssertionFailure ? undefined : error, error instanceof AssertionFailure);
         }
+
+        await this.closeOverlays();
       }
 
       report.suiteEnd();
     }
 
     report.runEnd();
+  }
+
+  // A method that fails ends where it failed, before closing what it opened:
+  // every modal and panel left open is closed after it, innermost first, so
+  // the next one starts on the page alone — and the run ends on it.
+  private async closeOverlays() {
+    const overlays: AbstractOverlayPageManager[] = [];
+    const collect = (node: RenderNode) => {
+      for (const child of node.eachChildRenderNode()) {
+        if (child instanceof AbstractOverlayPageManager && (child as any).overlayIsOpen()) {
+          overlays.push(child);
+        }
+
+        collect(child);
+      }
+    };
+
+    collect(this.app.layout);
+
+    for (const overlay of overlays.reverse()) {
+      await overlay.close({ instant: true });
+    }
   }
 }

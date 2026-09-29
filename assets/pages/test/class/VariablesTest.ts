@@ -50,23 +50,20 @@ export default class VariablesTest extends AbstractTest {
       'Component level var is set'
     );
 
-    this.fetchAdaptiveAjaxPage()
-      .then((renderData: LayoutInterface) => {
-        this.assertEquals(
-          renderData.page.vars.pageLevelTestVar,
-          'value',
-          'Modal renderData var is set'
-        );
+    const renderData: LayoutInterface = await this.fetchAdaptiveAjaxPage();
 
-        this.assertEquals(
-          this.app.layout.pageFocused.vars.pageLevelTestVar,
-          'value',
-          'Modal page level var is set'
-        );
+    this.assertEquals(
+      renderData.page.vars.pageLevelTestVar,
+      'value',
+      'Modal renderData var is set'
+    );
 
-        let modal = this.app.layout.pageFocused
-          .parentRenderNode as ModalComponent;
-        modal.close();
-      });
+    this.assertEquals(
+      this.app.layout.pageFocused.vars.pageLevelTestVar,
+      'value',
+      'Modal page level var is set'
+    );
+
+    await (this.app.layout.pageFocused.parentRenderNode as ModalComponent).close();
   }
 }

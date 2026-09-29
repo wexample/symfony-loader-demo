@@ -12,9 +12,10 @@ export default class ResponsiveTest extends AbstractTest {
 
   public getTestMethods() {
     return [
-      // this.testDefault,
+      this.testDefault,
       this.testModale,
-      // this.testDisplays
+      this.testDisplays,
+      this.testInstancesAtDifferentSizes,
     ];
   }
 
@@ -67,9 +68,7 @@ export default class ResponsiveTest extends AbstractTest {
     let elTesterComponent = this.generateResponsiveTester(component.el);
 
     for (let layoutResponsiveSize of breakPoints) {
-      mainRenderNode.responsiveSet(layoutResponsiveSize, true);
-
-      await timeSleep(this.responsiveActivationWaitDuration);
+      await mainRenderNode.responsiveSet(layoutResponsiveSize, true);
 
       this.assertMainResponsiveApplyStyle(
         layoutResponsiveSize,
@@ -80,9 +79,7 @@ export default class ResponsiveTest extends AbstractTest {
 
       // Test component responsive.
       for (let componentResponsiveSize of breakPoints) {
-        component.responsiveSet(componentResponsiveSize, false);
-
-        await timeSleep(this.responsiveActivationWaitDuration);
+        await component.responsiveSet(componentResponsiveSize, false);
 
         this.assertMainResponsiveApplyStyle(
           componentResponsiveSize,
@@ -116,9 +113,7 @@ export default class ResponsiveTest extends AbstractTest {
         let breakPoints = this.responsiveSizes;
 
         for (let responsiveSize of breakPoints) {
-          this.app.layout.responsiveSet(responsiveSize, true);
-
-          await timeSleep(this.responsiveActivationWaitDuration);
+          await this.app.layout.responsiveSet(responsiveSize, true);
 
           this.assertMainResponsiveApplyStyle(
             responsiveSize,
@@ -140,6 +135,39 @@ export default class ResponsiveTest extends AbstractTest {
 
         elTesterLayout.remove();
       });
+  }
+
+  // Instances of one component share its stylesheets. Two of them at two
+  // sizes each keep the sheet of their own: switching one never takes the
+  // other's away, even while it is still loading.
+  async testInstancesAtDifferentSizes() {
+    const [first, second] = this.responsiveSizes.slice(-2);
+    const pageComponent = this.app.layout.page.findChildRenderNodeByView(
+      '@WexampleSymfonyLoaderTestingBundle/components/test-component'
+    ) as Component & RenderNodeResponsiveType;
+
+    await this.fetchAdaptiveAjaxPage();
+
+    const modalComponent = this.app.layout.pageFocused.findChildRenderNodeByView(
+      '@WexampleSymfonyLoaderTestingBundle/components/test-component'
+    ) as Component & RenderNodeResponsiveType;
+
+    const pageTester = this.generateResponsiveTester(pageComponent.el);
+    const modalTester = this.generateResponsiveTester(modalComponent.el);
+
+    // Not awaited one after the other: both switches are under way at once.
+    await Promise.all([
+      pageComponent.responsiveSet(first, false),
+      modalComponent.responsiveSet(second, false),
+    ]);
+
+    this.assertResponsiveTestZoneHaveStyle(first, pageTester, 'color', 'rgb(0, 255, 0)');
+    this.assertResponsiveTestZoneHaveStyle(second, modalTester, 'color', 'rgb(0, 255, 0)');
+
+    pageTester.remove();
+    modalTester.remove();
+
+    await pageComponent.responsiveUpdate(false);
   }
 
   async testDisplays() {
@@ -193,6 +221,8 @@ export default class ResponsiveTest extends AbstractTest {
     );
   }
 
+  // An idle chip is whatever the page's own stylesheet draws: only the colour
+  // of the active one belongs to the test.
   assertMainResponsiveApplyStyle(
     size: string,
     elPlayground: HTMLElement,
@@ -200,17 +230,16 @@ export default class ResponsiveTest extends AbstractTest {
     activeColor: string,
     reverse: boolean = false
   ) {
-    let expectedColorValue = activeColor;
+    if (!reverse) {
+      this.assertResponsiveTestZoneHaveStyle(size, elPlayground, activeStyle, activeColor);
 
-    if (reverse) {
-      expectedColorValue = 'rgb(102, 102, 102)';
+      return;
     }
 
-    this.assertResponsiveTestZoneHaveStyle(
-      size,
-      elPlayground,
-      activeStyle,
-      expectedColorValue
+    this.assertNotEquals(
+      getComputedStyle(elPlayground.querySelector(`.test-responsive-${size}`))[activeStyle],
+      activeColor,
+      ` property "${activeStyle}" for size "${size}" is not lit`
     );
   }
 

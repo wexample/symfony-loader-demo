@@ -1,0 +1,11 @@
+{{- trans_js(render_pass, '@vue::string.client_side') -}}
+
+<ul>
+    <li>TEST_VUE_IMPORTED</li>
+    <li>
+        <span class="test-vue-string-translated-server-imported">{{ '@vue::string.server_side' | trans }}</span>
+    </li>
+    <li>
+        <span class="test-vue-string-translated-client-imported">{{ 'translatedStringClientSideImported' | vue_key }}</span>
+    </li>
+</ul>

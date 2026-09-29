@@ -4,23 +4,25 @@ import { domCreateHtmlDocumentFromHtml } from "@wexample/js-helpers/Helper/Dom";
 export default class LayoutTest extends AbstractTest {
   public getTestMethods() {
     return [
-      this.testNotEmpty
+      this.testDocumentHead,
     ];
   }
 
-  private testNotEmpty() {
-    this.fetchAdaptiveHtmlPage().then((html: string) => {
-      let elHtml = domCreateHtmlDocumentFromHtml(html);
+  // What a page sets of the document it is rendered in, read from the html a
+  // plain request gets.
+  async testDocumentHead() {
+    const elHtml = domCreateHtmlDocumentFromHtml(await this.fetchAdaptiveHtmlPage());
 
-      this.assertEquals(
-        elHtml.querySelector('head').querySelector('title').innerText,
-        'ADAPTIVE_DOCUMENT_TITLE'
-      );
+    this.assertEquals(
+      elHtml.querySelector('head title').textContent,
+      'ADAPTIVE_DOCUMENT_TITLE',
+      'The page sets the document title'
+    );
 
-      this.assertEquals(
-        (elHtml.querySelector('head').querySelector('meta[name=description]') as HTMLMetaElement).content,
-        'DOCUMENT_META_DESCRIPTION'
-      );
-    })
+    this.assertEquals(
+      (elHtml.querySelector('head meta[name=description]') as HTMLMetaElement).content,
+      'DOCUMENT_META_DESCRIPTION',
+      'The page sets the meta description'
+    );
   }
 }

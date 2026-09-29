@@ -17,7 +17,7 @@ export default class TestReport {
   private readonly startedAt = performance.now();
   private total: Counts = { passed: 0, failed: 0 };
   private suite?: { el: HTMLDetailsElement; counts: Counts; methods: HTMLElement };
-  private method?: { el: HTMLElement; list: HTMLElement; failed: boolean };
+  private method?: { el: HTMLElement; list: HTMLElement; failed: boolean; assertions: number };
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -46,10 +46,14 @@ export default class TestReport {
     el.innerHTML = '<div class="test-report--method-name"></div><ul class="test-report--assertions"></ul>';
     el.querySelector('.test-report--method-name')!.textContent = name;
     this.suite?.methods.append(el);
-    this.method = { el, list: el.querySelector('.test-report--assertions') as HTMLElement, failed: false };
+    this.method = { el, list: el.querySelector('.test-report--assertions') as HTMLElement, failed: false, assertions: 0 };
   }
 
   assertion(result: TestAssertion): void {
+    if (this.method) {
+      this.method.assertions++;
+    }
+
     const item = this.item(result.passed ? 'pass' : 'fail', result.message);
 
     if (!result.passed) {
@@ -86,6 +90,11 @@ export default class TestReport {
       this.count(false);
     } else if (failed && this.method) {
       this.method.failed = true;
+    } else if (this.method && !this.method.assertions) {
+      // A method that checked nothing passed nothing: most often a promise it
+      // did not wait for, its assertions landing after it ended, if at all.
+      this.item('error', this.label('empty'));
+      this.count(false);
     }
 
     this.method?.el.classList.toggle('test-report--method--failed', !!this.method?.failed);

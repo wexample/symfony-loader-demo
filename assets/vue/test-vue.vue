@@ -1,7 +1,10 @@
 <script>
+import TestVueImported from './test-vue-imported.vue';
+
 export default {
   components: {
     'vue-test-vue-2': '@WexampleSymfonyLoaderTestingBundle/vue/test-vue-2',
+    'vue-test-vue-imported': TestVueImported,
   },
 
   props: {

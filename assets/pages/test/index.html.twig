@@ -23,7 +23,8 @@
     <section class="test-report"
              data-label-expected="{{ '@page::report.expected' | trans }}"
              data-label-received="{{ '@page::report.received' | trans }}"
-             data-label-error="{{ '@page::report.error' | trans }}">
+             data-label-error="{{ '@page::report.error' | trans }}"
+             data-label-empty="{{ '@page::report.empty' | trans }}">
         <header class="test-report--head">
             <span class="test-report--state"></span>
             <span class="test-report--total-passed">{{ marker('success', '@page::report.passed' | trans, { count: 0, compact: true }) }}</span>

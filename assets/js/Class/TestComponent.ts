@@ -10,6 +10,11 @@ export default class TestComponent extends Component {
   async mounted() {
     await super.mounted();
 
+    // Unmounted again while mounting — the vue holding it hid it meanwhile.
+    if (!this.el) {
+      return;
+    }
+
     this.app.layout.vars.testComponentLoaded = true;
 
     const el = this.el.querySelector(`.test-component-test-js${this.suffix}`) as HTMLElement;

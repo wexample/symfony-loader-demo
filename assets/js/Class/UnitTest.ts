@@ -21,6 +21,16 @@ export default abstract class extends AppChild {
     }
   }
 
+  assertNotEquals(value: any, unexpected: any, message?: string, fatal: boolean = true) {
+    const passed = value !== unexpected;
+
+    this.report?.assertion({ passed, message: String(message ?? ''), value, expected: `anything but ${JSON.stringify(unexpected)}` });
+
+    if (!passed && fatal) {
+      throw new AssertionFailure(String(message ?? 'UNIT TEST ERROR'));
+    }
+  }
+
   assertTrue(value, message?: string) {
     this.assertEquals(value, true, message);
   }

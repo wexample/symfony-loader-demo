@@ -15,6 +15,7 @@ report:
   expected: Expected
   received: Received
   error: Unexpected error
+  empty: "No assertion ran — a promise not awaited?"
   fixtures: Fixtures
   fixtures_hint: what the tests read and write
   state:

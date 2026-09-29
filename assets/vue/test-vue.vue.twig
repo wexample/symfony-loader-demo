@@ -1,4 +1,5 @@
 {{- trans_js(render_pass, '@vue::string.client_side') -}}
+{{- vue_require(render_pass, '@WexampleSymfonyLoaderTestingBundle/vue/test-vue-imported') -}}
 
 <ul>
     <li>
@@ -18,10 +19,11 @@
     <li>
         <span class="test-vue-string-translated-client">{{ 'translatedStringClientSide' | vue_key }}</span>
     </li>
-    <li v-if="!hidePartOfDomContainingComponent">
+    <li v-if="!hidePartOfDomContainingComponent" class="test-vue-part-containing-component">
         PART_CONTAINING_COMPONENT
         {{ component(render_pass, '@WexampleSymfonyLoaderTestingBundle/components/test-component') }}
     </li>
     <li>{{ vue(render_pass, '@WexampleSymfonyLoaderTestingBundle/vue/test-vue-2') }}</li>
     <li>{{ vue(render_pass, '@WexampleSymfonyLoaderTestingBundle/vue/test-vue-2') }}</li>
+    <li><vue-test-vue-imported></vue-test-vue-imported></li>
 </ul>

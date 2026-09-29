@@ -35,9 +35,8 @@ export default class AdaptiveRenderingTest extends AbstractTest {
         'The focused page is the modal content page'
       );
 
-      this.assertEquals(
-        modal.view,
-        `@WexampleSymfonyDesignSystemBundle/components/modal`,
+      this.assertTrue(
+        modal instanceof ModalComponent,
         'The focused page is a child of modal component'
       );
 
@@ -181,6 +180,15 @@ export default class AdaptiveRenderingTest extends AbstractTest {
   }
 
   async assertVueUpdateSupportedByComponent() {
+    // The vue holds several components: the one checked is the one in the
+    // part of its template the event hides.
+    const testComponent = this.app.layout.pageFocused
+      .findChildRenderNodeByView('@WexampleSymfonyLoaderBundle/components/vue')
+      .eachChildRenderNode()
+      .find((node) => !!node.el?.closest('.test-vue-part-containing-component'));
+
+    this.assertTrue(!!testComponent, 'The vue has a component in the part it can hide');
+
     // Event changes vue content.
     this.app.services.events.trigger('test-vue-event', {
       hidePartOfDomContainingComponent: true,
@@ -188,10 +196,6 @@ export default class AdaptiveRenderingTest extends AbstractTest {
 
     // Need to wait for dom to break up.
     await timeSleep();
-
-    let testComponent = this.app.layout.pageFocused
-      .findChildRenderNodeByView('@WexampleSymfonyLoaderBundle/components/vue')
-      .findChildRenderNodeByView('@WexampleSymfonyLoaderTestingBundle/components/test-component');
 
     this.assertFalse(
       testComponent.isMounted,
