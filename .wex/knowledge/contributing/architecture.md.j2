@@ -26,15 +26,14 @@ template_routes:
 
 The second loader, `template_based_routes`, comes from `wexample/symfony-loader`: routes derived from templates rather than from a controller method. It is the reason the services config has to be loaded for routing to work at all.
 
-### Three controllers, three prefixes
+### Two controllers, two prefixes
 
 | Controller | Prefix | Purpose |
 | --- | --- | --- |
 | {{ path("src/Controller/Pages/TestController.php") }} | `_loader/test/` | the suite: `index`, `adaptive`, `view`, `error-missing-view` |
 | {{ path("src/Controller/Pages/DemoController.php") }} | `_loader/demo/` | a documented showcase of the component-init variants |
-| {{ path("src/Controller/Pages/TranslationsController.php") }} | `_loader/translations/` | a page documenting translation domains, includes and `trans_js` |
 
-All three extend `AbstractPagesController` and `use SymfonyLoaderTestingBundleClassTrait`, whose entire body is:
+Both extend `AbstractPagesController` and `use SymfonyLoaderTestingBundleClassTrait`, whose entire body is:
 
 ```php
 public static function getBundleClassName(): string

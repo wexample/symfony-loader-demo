@@ -1,6 +1,6 @@
 # symfony_loader_demo
 
-Version: 5.0.11
+Version: 6.0.0
 
 `wexample/symfony-loader-testing` is a Symfony bundle that ships the fixture pages used to exercise `wexample/symfony-loader` and `wexample/symfony-design-system` in a real browser: layouts, components, Vue views, translations and responsive stylesheets, served by three controllers mounted under `_loader/test/`, `_loader/demo/` and `_loader/translations/`. Loading the test index runs the suite client-side — assets/pages/test/index.ts hands a list of test classes to `TestManagerPage.runTests()`, which reports each assertion in the console — so adaptive rendering, routing, usages, overlays or the no-JS fallback are checked against a rendered page rather than a mock.
 
@@ -44,15 +44,14 @@ template_routes:
 
 The second loader, `template_based_routes`, comes from `wexample/symfony-loader`: routes derived from templates rather than from a controller method. It is the reason the services config has to be loaded for routing to work at all.
 
-### Three controllers, three prefixes
+### Two controllers, two prefixes
 
 | Controller | Prefix | Purpose |
 | --- | --- | --- |
 | src/Controller/Pages/TestController.php | `_loader/test/` | the suite: `index`, `adaptive`, `view`, `error-missing-view` |
 | src/Controller/Pages/DemoController.php | `_loader/demo/` | a documented showcase of the component-init variants |
-| src/Controller/Pages/TranslationsController.php | `_loader/translations/` | a page documenting translation domains, includes and `trans_js` |
 
-All three extend `AbstractPagesController` and `use SymfonyLoaderTestingBundleClassTrait`, whose entire body is:
+Both extend `AbstractPagesController` and `use SymfonyLoaderTestingBundleClassTrait`, whose entire body is:
 
 ```php
 public static function getBundleClassName(): string
@@ -113,8 +112,8 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-loader: >=14.0.0
-- wexample/symfony-design-system: >=21.0.0
+- wexample/symfony-loader: >=15.0.0
+- wexample/symfony-design-system: >=22.0.0
 
 ## Versioning & Compatibility Policy
 
