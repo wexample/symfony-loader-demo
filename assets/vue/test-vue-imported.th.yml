@@ -1,3 +1,0 @@
-string:
-  client_side: 'การแปล VUE ที่นำเข้า (CLIENT_SIDE_TEST)'
-  server_side: 'การแปล VUE ที่นำเข้า (SERVER_SIDE_TEST)'

@@ -1,9 +1,0 @@
-firstGroup:
-  first: ראשון
-  second: שני
-  third: שלישי
-secondGroup:
-  first: תרגום_שרת_לAYOUT
-string:
-  client_side: תרגום_צד_לקוח
-  server_side: תרגום_צד_שרת

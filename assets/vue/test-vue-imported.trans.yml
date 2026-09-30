@@ -1,0 +1,114 @@
+en:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+
+ar:
+  string:
+    client_side: ترجمة_تم_استيرادها_لجانب_العميل
+    server_side: ترجمة_تم_استيرادها_لجانب_الخادم
+
+bn:
+  string:
+    client_side: ক্লায়েন্ট_সাইড_টেস্ট_ভিউ_অনুবাদ-আমদানি_কৃত
+    server_side: সার্ভার_সাইড_টেস্ট_ভিউ_অনুবাদ-আমদানি_কৃত
+
+de:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_ÜBERSETZUNG-IMPORTIERT
+    server_side: SERVER_SIDE_TEST_VUE_ÜBERSETZUNG-IMPORTIERT
+
+es:
+  string:
+    client_side: TRADUCCIÓN_IMPORTADA_DE_VUE_DE_PRUEBA_DEL_CLIENTE
+    server_side: TRADUCCIÓN_IMPORTADA_DE_VUE_DE_PRUEBA_DEL_SERVIDOR
+
+fa:
+  string:
+    client_side: 'ترجمه وارد شده تست سمت کلاینت'
+    server_side: 'ترجمه وارد شده تست سمت سرور'
+
+fi:
+  string:
+    client_side: ASIakASIDE_TEST_VUE_KÄÄNNÖS-TUONTI
+    server_side: PALVELINPUOLEINEN_TEST_VUE_KÄÄNNÖS-TUONTI
+
+fr:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+
+he:
+  string:
+    client_side: 'תרגום שנבדק בצד הלקוח'
+    server_side: 'תרגום שנבדק בצד השרת'
+
+hi:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+
+id:
+  string:
+    client_side: TERJEMAHAN_VUE_IMPOT_CLIENT_SIDE
+    server_side: TERJEMAHAN_VUE_IMPOT_SERVER_SIDE
+
+it:
+  string:
+    client_side: TRADUZIONE_IMPOTRATA_CLIENT_SIDE_TEST_VUE
+    server_side: TRADUZIONE_IMPOTRATA_SERVER_SIDE_TEST_VUE
+
+ja:
+  string:
+    client_side: クライアントサイドテストVue翻訳インポート
+    server_side: サーバーサイドテストVue翻訳インポート
+
+ko:
+  string:
+    client_side: 클라이언트_측_테스트_뷰_번역_가져오기
+    server_side: 서버_측_테스트_뷰_번역_가져오기
+
+nl:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATIE-INGEVOERD
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATIE-INGEVOERD
+
+pl:
+  string:
+    client_side: 'TŁUMACZENIE_TESTU_PO STRONIE_KLIENTA_VUE-IMPORTOWANE'
+    server_side: 'TŁUMACZENIE_TESTU_PO STRONIE_SERWERA_VUE-IMPORTOWANE'
+
+pt_BR:
+  string:
+    client_side: TESTE_CLIENTE_VUE_TRADUÇÃO_IMPORTADA
+    server_side: TESTE_SERVIDOR_VUE_TRADUÇÃO_IMPORTADA
+
+ru:
+  string:
+    client_side: ТЕСТ_СЕРВЕРА_ВЮ_-_ИМПОРТИРОВАНА
+    server_side: ТЕСТ_КЛИЕНТА_ВЮ_-_ИМПОРТИРОВАНА
+
+th:
+  string:
+    client_side: 'การแปล VUE ที่นำเข้า (CLIENT_SIDE_TEST)'
+    server_side: 'การแปล VUE ที่นำเข้า (SERVER_SIDE_TEST)'
+
+tr:
+  string:
+    client_side: 'CLIENT_SIDE_TEST_VUE_TERCÜMESİ-İTHAL EDİLDİ'
+    server_side: 'SERVER_SIDE_TEST_VUE_TERCÜMESİ-İTHAL EDİLDİ'
+
+ur:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-IMPORTED
+
+vi:
+  string:
+    client_side: 'BÀI KIỂM TRA_CLIENT_SIDE_VUE_DƯỢC_NHẬP'
+    server_side: 'BÀI KIỂM TRA_SERVER_SIDE_VUE_DƯỢC_NHẬP'
+
+zh:
+  string:
+    client_side: 客户端测试Vue翻译-已导入
+    server_side: 服务器端测试Vue翻译-已导入

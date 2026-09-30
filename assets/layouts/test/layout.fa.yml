@@ -1,9 +1,0 @@
-firstGroup:
-  first: اول
-  second: دوم
-  third: سوم
-secondGroup:
-  first: ترجمه_سرور_طرح_آزمایش
-string:
-  client_side: ترجمه_طرح_سمت_کاربر
-  server_side: ترجمه_طرح_سمت_سرور

@@ -1,9 +1,0 @@
-firstGroup:
-  first: Eerste
-  second: Tweede
-  third: Derde
-secondGroup:
-  first: TEST_LAYOUT_SERVER_VERTALING
-string:
-  client_side: CLIENT_SIDE_LAYOUT_VERTALING
-  server_side: SERVER_SIDE_LAYOUT_VERTALING

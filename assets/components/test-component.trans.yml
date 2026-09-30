@@ -1,0 +1,114 @@
+en:
+  string:
+    client_side: CLIENT_SIDE_TEST_COMPONENT_TRANSLATION
+    server_side: SERVER_SIDE_TEST_COMPONENT_TRANSLATION
+
+ar:
+  string:
+    client_side: ترجمة_مكون_اختبار_العميل
+    server_side: ترجمة_مكون_اختبار_الخادم
+
+bn:
+  string:
+    client_side: ক্লায়েন্ট_সাইড_টেস্ট_কম্পোনেন্ট_অনুবাদ
+    server_side: সার্ভার_সাইড_টেস্ট_কম্পোনেন্ট_অনুবাদ
+
+de:
+  string:
+    client_side: CLIENT_SEITEN_TESTKOMPONENTENÜBERSETZUNG
+    server_side: SERVER_SEITEN_TESTKOMPONENTENÜBERSETZUNG
+
+es:
+  string:
+    client_side: TRADUCCIÓN_DEL_COMPONENETE_DE_PRUEBA_DEL_CLIENTE
+    server_side: TRADUCCIÓN_DEL_COMPONENETE_DE_PRUEBA_DEL_SERVIDOR
+
+fa:
+  string:
+    client_side: ترجمه_مولفه_آزمایش_سمت_کاربر
+    server_side: ترجمه_مولفه_آزمایش_سمت_سرور
+
+fi:
+  string:
+    client_side: ASIakasPUOLEn_TESTI_KOMPONENTIN_KÄÄNNÖS
+    server_side: PALVELINPUOLEn_TESTI_KOMPONENTIN_KÄÄNNÖS
+
+fr:
+  string:
+    client_side: CLIENT_SIDE_TEST_COMPONENT_TRANSLATION
+    server_side: SERVER_SIDE_TEST_COMPONENT_TRANSLATION
+
+he:
+  string:
+    client_side: 'תרגום רכיב בדיקה בצד הלקוח'
+    server_side: 'תרגום רכיב בדיקה בצד השרת'
+
+hi:
+  string:
+    client_side: CLIENT_SIDE_TEST_COMPONENT_TRANSLATION
+    server_side: SERVER_SIDE_TEST_COMPONENT_TRANSLATION
+
+id:
+  string:
+    client_side: TERJEMAHAN_KOMPONEN_UJIAN_SISIPAN_KLIEN
+    server_side: TERJEMAHAN_KOMPONEN_UJIAN_SISIPAN_SERVER
+
+it:
+  string:
+    client_side: TRADUZIONE_COMPONENTE_TEST_LATO_CLIENTE
+    server_side: TRADUZIONE_COMPONENTE_TEST_LATO_SERVER
+
+ja:
+  string:
+    client_side: クライアントサイドテストコンポーネント翻訳
+    server_side: サーバーサイドテストコンポーネント翻訳
+
+ko:
+  string:
+    client_side: '클라이언트 측 테스트 컴포넌트 번역'
+    server_side: '서버 측 테스트 컴포넌트 번역'
+
+nl:
+  string:
+    client_side: CLIENT_SIDE_TEST_COMPONENT_VERTALING
+    server_side: SERVER_SIDE_TEST_COMPONENT_VERTALING
+
+pl:
+  string:
+    client_side: 'TŁUMACZENIE_KOMPONENTU_TESTOWEGO_PO STRONIE_KLIENTA'
+    server_side: 'TŁUMACZENIE_KOMPONENTU_TESTOWEGO_PO STRONIE_SERWERA'
+
+pt_BR:
+  string:
+    client_side: TRADUÇÃO_DO_COMPONENTE_DE_TESTE_CLIENTE
+    server_side: TRADUÇÃO_DO_COMPONENTE_DE_TESTE_SERVIDOR
+
+ru:
+  string:
+    client_side: ПЕРЕВОД_КЛИЕНТСКОЙ_СТОРОНЫ_ТЕСТОВОГО_КОМПОНЕНТА
+    server_side: ПЕРЕВОД_СЕРВЕРНОЙ_СТОРОНЫ_ТЕСТОВОГО_КОМПОНЕНТА
+
+th:
+  string:
+    client_side: การแปลส่วนประกอบการทดสอบด้านไคลเอนต์
+    server_side: การแปลส่วนประกอบการทดสอบด้านเซิร์ฟเวอร์
+
+tr:
+  string:
+    client_side: 'MÜŞTERİ TARAFI TEST BİLEŞENİ ÇEVİRİSİ'
+    server_side: 'SUNUCU TARAFI TEST BİLEŞENİ ÇEVİRİSİ'
+
+ur:
+  string:
+    client_side: 'کلائنٹ سائیڈ ٹیسٹ کمپوننٹ ترجمہ'
+    server_side: 'سرور سائیڈ ٹیسٹ کمپوننٹ ترجمہ'
+
+vi:
+  string:
+    client_side: CLIENT_SIDE_TEST_COMPONENT_TRANSLATION
+    server_side: SERVER_SIDE_TEST_COMPONENT_TRANSLATION
+
+zh:
+  string:
+    client_side: 客户端测试组件翻译
+    server_side: 服务器端测试组件翻译

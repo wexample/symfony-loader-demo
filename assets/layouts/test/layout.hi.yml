@@ -1,9 +1,0 @@
-firstGroup:
-  first: पहला
-  second: दूसरा
-  third: तीसरा
-secondGroup:
-  first: परीक्षण_लेआउट_सर्वर_अनुवाद
-string:
-  client_side: क्लाइंट_साइड_लेआउट_अनुवाद
-  server_side: सर्वर_साइड_लेआउट_अनुवाद

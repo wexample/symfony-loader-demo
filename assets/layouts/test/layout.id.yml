@@ -1,9 +1,0 @@
-firstGroup:
-  first: Pertama
-  second: Kedua
-  third: Ketiga
-secondGroup:
-  first: TEST_LAYOUT_SERVER_TRANSLATION
-string:
-  client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
-  server_side: SERVER_SIDE_LAYOUT_TRANSLATION

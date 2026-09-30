@@ -1,0 +1,256 @@
+en:
+  firstGroup:
+    first: First
+    second: Second
+    third: Third
+
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+ar:
+  firstGroup:
+    first: الأول
+    second: الثاني
+    third: الثالث
+  secondGroup:
+    first: 'اختبار ترجمة خادم التخطيط'
+  string:
+    client_side: 'ترجمة تخطيط الجانب العميل'
+    server_side: 'ترجمة تخطيط الجانب الخادم'
+
+bn:
+  firstGroup:
+    first: প্রথম
+    second: দ্বিতীয়
+    third: তৃতীয়
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+de:
+  firstGroup:
+    first: Erste
+    second: Zweite
+    third: Dritte
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+es:
+  firstGroup:
+    first: Primero
+    second: Segundo
+    third: Tercero
+  secondGroup:
+    first: PRUEBA_TRADUCCIÓN_SERVIDOR_LAYOUT
+  string:
+    client_side: TRADUCCIÓN_LAYOUT_CLIENTE
+    server_side: TRADUCCIÓN_LAYOUT_SERVIDOR
+
+fa:
+  firstGroup:
+    first: اول
+    second: دوم
+    third: سوم
+  secondGroup:
+    first: ترجمه_سرور_طرح_آزمایش
+  string:
+    client_side: ترجمه_طرح_سمت_کاربر
+    server_side: ترجمه_طرح_سمت_سرور
+
+fi:
+  firstGroup:
+    first: Ensimmäinen
+    second: Toinen
+    third: Kolmas
+  secondGroup:
+    first: TESTI_ASETELMA_PALVELIN_KÄÄNNÖS
+  string:
+    client_side: ASIANTUNTIJA_PUOLI_ASETELMA_KÄÄNNÖS
+    server_side: PALVELIN_PUOLI_ASETELMA_KÄÄNNÖS
+
+fr:
+  firstGroup:
+    first: First
+    second: Second
+    third: Third
+
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+he:
+  firstGroup:
+    first: ראשון
+    second: שני
+    third: שלישי
+  secondGroup:
+    first: תרגום_שרת_לAYOUT
+  string:
+    client_side: תרגום_צד_לקוח
+    server_side: תרגום_צד_שרת
+
+hi:
+  firstGroup:
+    first: पहला
+    second: दूसरा
+    third: तीसरा
+  secondGroup:
+    first: परीक्षण_लेआउट_सर्वर_अनुवाद
+  string:
+    client_side: क्लाइंट_साइड_लेआउट_अनुवाद
+    server_side: सर्वर_साइड_लेआउट_अनुवाद
+
+id:
+  firstGroup:
+    first: Pertama
+    second: Kedua
+    third: Ketiga
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+it:
+  firstGroup:
+    first: Primo
+    second: Secondo
+    third: Terzo
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+ja:
+  firstGroup:
+    first: 最初
+    second: 第二
+    third: 第三
+  secondGroup:
+    first: テスト_レイアウト_サーバー_翻訳
+  string:
+    client_side: クライアント側レイアウト翻訳
+    server_side: サーバー側レイアウト翻訳
+
+ko:
+  firstGroup:
+    first: '첫 번째'
+    second: '두 번째'
+    third: '세 번째'
+  secondGroup:
+    first: 테스트_레이아웃_서버_번역
+  string:
+    client_side: 클라이언트_측_레이아웃_번역
+    server_side: 서버_측_레이아웃_번역
+
+nl:
+  firstGroup:
+    first: Eerste
+    second: Tweede
+    third: Derde
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_VERTALING
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_VERTALING
+    server_side: SERVER_SIDE_LAYOUT_VERTALING
+
+pl:
+  firstGroup:
+    first: Pierwszy
+    second: Drugi
+    third: Trzeci
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+pt_BR:
+  firstGroup:
+    first: Primeiro
+    second: Segundo
+    third: Terceiro
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+ru:
+  firstGroup:
+    first: Первый
+    second: Второй
+    third: Третий
+  secondGroup:
+    first: ТЕСТ_ПЕРЕВОДА_СЕРВЕРА_РАЗМЕТКИ
+  string:
+    client_side: ПЕРЕВОД_РАЗМЕТКИ_КЛИЕНТА
+    server_side: ПЕРЕВОД_РАЗМЕТКИ_СЕРВЕРА
+
+th:
+  firstGroup:
+    first: แรก
+    second: ที่สอง
+    third: ที่สาม
+  secondGroup:
+    first: ทดสอบการแปลเลย์เอาต์เซิร์ฟเวอร์
+  string:
+    client_side: การแปลเลย์เอาต์ฝั่งลูกค้า
+    server_side: การแปลเลย์เอาต์ฝั่งเซิร์ฟเวอร์
+
+tr:
+  firstGroup:
+    first: Birinci
+    second: İkinci
+    third: Üçüncü
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+ur:
+  firstGroup:
+    first: پہلا
+    second: دوسرا
+    third: تیسرا
+  secondGroup:
+    first: TEST_LAYOUT_SERVER_TRANSLATION
+  string:
+    client_side: CLIENT_SIDE_LAYOUT_TRANSLATION
+    server_side: SERVER_SIDE_LAYOUT_TRANSLATION
+
+vi:
+  firstGroup:
+    first: 'Đầu tiên'
+    second: 'Thứ hai'
+    third: 'Thứ ba'
+  secondGroup:
+    first: 'KIỂM TRA_BIỂU_MẪU_DỊCH_MÁY_CHỦ'
+  string:
+    client_side: DỊCH_BIỂU_MẪU_BÊN_CLIENT
+    server_side: DỊCH_BIỂU_MẪU_BÊN_MÁY_CHỦ
+
+zh:
+  firstGroup:
+    first: 第一
+    second: 第二
+    third: 第三
+  secondGroup:
+    first: 测试布局服务器翻译
+  string:
+    client_side: 客户端布局翻译
+    server_side: 服务器布局翻译

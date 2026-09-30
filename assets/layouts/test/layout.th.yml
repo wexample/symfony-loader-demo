@@ -1,9 +1,0 @@
-firstGroup:
-  first: แรก
-  second: ที่สอง
-  third: ที่สาม
-secondGroup:
-  first: ทดสอบการแปลเลย์เอาต์เซิร์ฟเวอร์
-string:
-  client_side: การแปลเลย์เอาต์ฝั่งลูกค้า
-  server_side: การแปลเลย์เอาต์ฝั่งเซิร์ฟเวอร์

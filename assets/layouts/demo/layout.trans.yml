@@ -1,0 +1,184 @@
+en:
+  ~extends: '@front.layouts.private.layout'
+
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: Generic components
+
+ar:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'مكونات عامة'
+
+bn:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'সাধারণ উপাদান'
+
+de:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Generische Komponenten'
+
+es:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Componentes genéricos'
+
+fa:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'اجزای عمومی'
+
+fi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Yleiset komponentit'
+
+fr:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Composants génériques'
+
+he:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'מרכיבים כלליים'
+
+hi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'सामान्य घटक'
+
+id:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Komponen umum'
+
+it:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Componenti generici'
+
+ja:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 汎用コンポーネント
+
+ko:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: '일반 구성 요소'
+
+nl:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Algemene componenten'
+
+pl:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Ogólne komponenty'
+
+pt_BR:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Componentes genéricos'
+
+ru:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Общие компоненты'
+
+th:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: ส่วนประกอบทั่วไป
+
+tr:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Genel bileşenler'
+
+ur:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'جنرک کمپوننٹس'
+
+vi:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 'Các thành phần chung'
+
+zh:
+  ~extends: '@front.layouts.private.layout'
+  menu_design_system:
+    navigation:
+      group:
+        generic:
+          title: 通用组件

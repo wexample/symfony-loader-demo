@@ -1,0 +1,68 @@
+en:
+  page_title: ADAPTIVE_PAGE_TITLE
+
+ar:
+  page_title: 'عنوان الصفحة التكيفية'
+
+bn:
+  page_title: ADAPTIVE_PAGE_TITLE
+
+de:
+  page_title: ADAPTIVER_SEITENTITEL
+
+es:
+  page_title: TÍTULO_DE_PÁGINA_ADAPTATIVO
+
+fa:
+  page_title: 'عنوان صفحه سازگار'
+
+fi:
+  page_title: SOVITTAUTUVA_SIVUN_OTSIKKO
+
+fr:
+  page_title: ADAPTIVE_PAGE_TITLE
+
+he:
+  page_title: כותרת_דף_מותאמת
+
+hi:
+  page_title: 'अनुकूलन पृष्ठ शीर्षक'
+
+id:
+  page_title: JUDUL_HALAMAN_ADAPTIF
+
+it:
+  page_title: TITOLO_PAGINA_ADATTIVO
+
+ja:
+  page_title: ADAPTIVE_PAGE_TITLE
+
+ko:
+  page_title: '적응형 페이지 제목'
+
+nl:
+  page_title: ADAPTIEVE_PAGINA_TITEL
+
+pl:
+  page_title: 'Tytuł adaptacyjny'
+
+pt_BR:
+  page_title: TÍTULO_ADAPTATIVO
+
+ru:
+  page_title: АДАПТИВНЫЙ_ЗАГОЛОВОК_СТРАНИЦЫ
+
+th:
+  page_title: ชื่อหน้าที่ปรับเปลี่ยนได้
+
+tr:
+  page_title: ADAPTİF_SAYFA_BAŞLIĞI
+
+ur:
+  page_title: ADAPTIVE_PAGE_TITLE
+
+vi:
+  page_title: 'TIÊU ĐỀ TRANG THÍCH ỨNG'
+
+zh:
+  page_title: ADAPTIVE_PAGE_TITLE

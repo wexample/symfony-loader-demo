@@ -1,0 +1,114 @@
+en:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-3
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-3
+
+ar:
+  string:
+    client_side: اختبار_الجانب_العميل_ترجمة_VUE-3
+    server_side: اختبار_الجانب_الخادم_ترجمة_VUE-3
+
+bn:
+  string:
+    client_side: ক্লায়েন্ট_সাইড_পরীক্ষা_ভিউ_অনুবাদ-৩
+    server_side: সার্ভার_সাইড_পরীক্ষা_ভিউ_অনুবাদ-৩
+
+de:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_ÜBERSETZUNG-3
+    server_side: SERVER_SIDE_TEST_VUE_ÜBERSETZUNG-3
+
+es:
+  string:
+    client_side: TRADUCCIÓN_VUE_PRUEBA_CLIENTE-3
+    server_side: TRADUCCIÓN_VUE_PRUEBA_SERVIDOR-3
+
+fa:
+  string:
+    client_side: تست_سمت_کلاینت_ترجمه_ویو-3
+    server_side: تست_سمت_سرور_ترجمه_ویو-3
+
+fi:
+  string:
+    client_side: ASIANTUNTIJA_VIENNIN_TESTI-3
+    server_side: PALVELIN_VIENNIN_TESTI-3
+
+fr:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-3
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-3
+
+he:
+  string:
+    client_side: תרגום_VUE_לצד_הלקוח-3
+    server_side: תרגום_VUE_לצד_השרת-3
+
+hi:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-3
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-3
+
+id:
+  string:
+    client_side: TRANSLASI_VUE_UJI_COBALAH_SEBELAH_KLIEN-3
+    server_side: TRANSLASI_VUE_UJI_COBALAH_SEBELAH_SERVER-3
+
+it:
+  string:
+    client_side: TRADUZIONE_VUE_TEST_CLIENTE-3
+    server_side: TRADUZIONE_VUE_TEST_SERVER-3
+
+ja:
+  string:
+    client_side: クライアントサイドテストVue翻訳-3
+    server_side: サーバーサイドテストVue翻訳-3
+
+ko:
+  string:
+    client_side: 클라이언트_측_테스트_VUE_번역-3
+    server_side: 서버_측_테스트_VUE_번역-3
+
+nl:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-3
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-3
+
+pl:
+  string:
+    client_side: TEST_WERSJI_KLIENTA_VUE-3
+    server_side: TEST_WERSJI_SERWERA_VUE-3
+
+pt_BR:
+  string:
+    client_side: TESTE_DE_TRADUÇÃO_VUE_CLIENTE-3
+    server_side: TESTE_DE_TRADUÇÃO_VUE_SERVIDOR-3
+
+ru:
+  string:
+    client_side: ТЕСТ_КЛИЕНТСКОЙ_СТОРОНЫ_VUE_ПЕРЕВОД-3
+    server_side: ТЕСТ_СЕРВЕРНОЙ_СТОРОНЫ_VUE_ПЕРЕВОД-3
+
+th:
+  string:
+    client_side: การแปลทดสอบฝั่งลูกค้า-3
+    server_side: การแปลทดสอบฝั่งเซิร์ฟเวอร์-3
+
+tr:
+  string:
+    client_side: 'İstemci Tarafı Testi Vue Çevirisi-3'
+    server_side: 'Sunucu Tarafı Testi Vue Çevirisi-3'
+
+ur:
+  string:
+    client_side: 'کلائنٹ سائیڈ ٹیسٹ ویو ترجمہ-3'
+    server_side: 'سرور سائیڈ ٹیسٹ ویو ترجمہ-3'
+
+vi:
+  string:
+    client_side: 'KIỂM TRA_VUE_DỊCH_TA_CLIENT_SIDE-3'
+    server_side: 'KIỂM TRA_VUE_DỊCH_TA_SERVER_SIDE-3'
+
+zh:
+  string:
+    client_side: 客户端测试Vue翻译-3
+    server_side: 服务器端测试Vue翻译-3

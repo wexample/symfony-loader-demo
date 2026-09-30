@@ -1,9 +1,0 @@
-firstGroup:
-  first: 'Đầu tiên'
-  second: 'Thứ hai'
-  third: 'Thứ ba'
-secondGroup:
-  first: 'KIỂM TRA_BIỂU_MẪU_DỊCH_MÁY_CHỦ'
-string:
-  client_side: DỊCH_BIỂU_MẪU_BÊN_CLIENT
-  server_side: DỊCH_BIỂU_MẪU_BÊN_MÁY_CHỦ

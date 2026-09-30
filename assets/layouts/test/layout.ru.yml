@@ -1,9 +1,0 @@
-firstGroup:
-  first: Первый
-  second: Второй
-  third: Третий
-secondGroup:
-  first: ТЕСТ_ПЕРЕВОДА_СЕРВЕРА_РАЗМЕТКИ
-string:
-  client_side: ПЕРЕВОД_РАЗМЕТКИ_КЛИЕНТА
-  server_side: ПЕРЕВОД_РАЗМЕТКИ_СЕРВЕРА

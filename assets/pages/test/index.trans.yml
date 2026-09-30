@@ -1,0 +1,531 @@
+en:
+  page_title: Tests
+  page_icon: ph:bold/test-tube
+
+  firstGroup:
+    first: First
+    second: Second
+    third: Third
+
+  secondGroup:
+    first: First
+
+  report:
+    passed: Passed
+    failed: Failed
+    expected: Expected
+    received: Received
+    error: Unexpected error
+    empty: "No assertion ran — a promise not awaited?"
+    fixtures: Fixtures
+    fixtures_hint: what the tests read and write
+    state:
+      running: Running
+      passed: All passed
+      failed: Some failed
+
+ar:
+  page_title: الاختبارات
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: الأولى
+    second: الثانية
+    third: الثالثة
+  secondGroup:
+    first: الأولى
+  report:
+    passed: ناجح
+    failed: فشل
+    expected: متوقع
+    received: مستلم
+    error: 'خطأ غير متوقع'
+    empty: 'لم يتم تشغيل أي تأكيد - هل تم تجاهل وعد؟'
+    fixtures: التركيبات
+    fixtures_hint: 'ما تقرأه الاختبارات وتكتبه'
+    state:
+      running: 'جاري التشغيل'
+      passed: 'الجميع ناجح'
+      failed: 'بعضها فشل'
+
+bn:
+  page_title: পরীক্ষা
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: প্রথম
+    second: দ্বিতীয়
+    third: তৃতীয়
+  secondGroup:
+    first: প্রথম
+  report:
+    passed: 'পাস হয়েছে'
+    failed: 'ফেল হয়েছে'
+    expected: প্রত্যাশিত
+    received: প্রাপ্ত
+    error: 'অপ্রত্যাশিত ত্রুটি'
+    empty: 'কোনো অনুমান চালানো হয়নি — একটি প্রতিশ্রুতি পূরণ হয়নি?'
+    fixtures: ফিক্সচার
+    fixtures_hint: 'যা পরীক্ষাগুলি পড়ে এবং লেখে'
+    state:
+      running: 'চালু আছে'
+      passed: 'সব পাস হয়েছে'
+      failed: 'কিছু ফেল হয়েছে'
+
+de:
+  page_title: Tests
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Erster
+    second: Zweiter
+    third: Dritter
+  secondGroup:
+    first: Erster
+  report:
+    passed: Bestanden
+    failed: Fehlgeschlagen
+    expected: Erwartet
+    received: Erhalten
+    error: 'Unerwarteter Fehler'
+    empty: 'Keine Assertion ausgeführt — ein Versprechen nicht abgewartet?'
+    fixtures: Fixtures
+    fixtures_hint: 'was die Tests lesen und schreiben'
+    state:
+      running: 'Wird ausgeführt'
+      passed: 'Alle bestanden'
+      failed: 'Einige fehlgeschlagen'
+
+es:
+  page_title: Pruebas
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Primero
+    second: Segundo
+    third: Tercero
+  secondGroup:
+    first: Primero
+  report:
+    passed: Aprobado
+    failed: Fallido
+    expected: Esperado
+    received: Recibido
+    error: 'Error inesperado'
+    empty: 'No se ejecutó ninguna afirmación — ¿una promesa no esperada?'
+    fixtures: Fixtures
+    fixtures_hint: 'lo que las pruebas leen y escriben'
+    state:
+      running: Ejecutándose
+      passed: 'Todos aprobados'
+      failed: 'Algunos fallaron'
+
+fa:
+  page_title: آزمون‌ها
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: اول
+    second: دوم
+    third: سوم
+  secondGroup:
+    first: اول
+  report:
+    passed: 'قبول شد'
+    failed: 'رد شد'
+    expected: 'انتظار می‌رفت'
+    received: 'دریافت شد'
+    error: 'خطای غیرمنتظره'
+    empty: 'هیچ تستی اجرا نشد — آیا وعده‌ای منتظر مانده است؟'
+    fixtures: تجهیزات
+    fixtures_hint: 'آنچه که تست‌ها می‌خوانند و می‌نویسند'
+    state:
+      running: 'در حال اجرا'
+      passed: 'همه قبول شدند'
+      failed: 'برخی رد شدند'
+
+fi:
+  page_title: Testit
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Ensimmäinen
+    second: Toinen
+    third: Kolmas
+  secondGroup:
+    first: Ensimmäinen
+  report:
+    passed: Hyväksytty
+    failed: Hylätty
+    expected: Odotettu
+    received: Vastaanotettu
+    error: 'Odottamaton virhe'
+    empty: 'Ei suoritettuja väitteitä — lupausta ei odotettu?'
+    fixtures: Testitiedot
+    fixtures_hint: 'mitä testit lukevat ja kirjoittavat'
+    state:
+      running: Suoritetaan
+      passed: 'Kaikki hyväksytty'
+      failed: 'Jotkut hylätty'
+
+fr:
+  page_title: Tests
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: First
+    second: Second
+    third: Third
+  secondGroup:
+    first: First
+  report:
+    passed: Réussis
+    failed: Échoués
+    expected: Attendu
+    received: Obtenu
+    error: 'Erreur inattendue'
+    empty: 'Aucune assertion exécutée — une promesse non attendue ?'
+    fixtures: Fixtures
+    fixtures_hint: 'ce que les tests lisent et modifient'
+    state:
+      running: 'En cours'
+      passed: 'Tout est passé'
+      failed: 'Des échecs'
+
+he:
+  page_title: מבחנים
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: ראשון
+    second: שני
+    third: שלישי
+  secondGroup:
+    first: ראשון
+  report:
+    passed: עבר
+    failed: נכשל
+    expected: צפוי
+    received: התקבל
+    error: 'שגיאה בלתי צפויה'
+    empty: 'לא רצה שום אסרט — הבטחה שלא המתנו לה?'
+    fixtures: תצורות
+    fixtures_hint: 'מה שהמבחנים קוראים וכותבים'
+    state:
+      running: רץ
+      passed: 'הכל עבר'
+      failed: 'חלק נכשלו'
+
+hi:
+  page_title: परीक्षण
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: पहला
+    second: दूसरा
+    third: तीसरा
+  secondGroup:
+    first: पहला
+  report:
+    passed: पास
+    failed: फेल
+    expected: अपेक्षित
+    received: प्राप्त
+    error: 'अप्रत्याशित त्रुटि'
+    empty: 'कोई आश्वासन नहीं चला — क्या एक वादा नहीं निभाया गया?'
+    fixtures: फिक्स्चर
+    fixtures_hint: 'जो परीक्षण पढ़ते और लिखते हैं'
+    state:
+      running: 'चल रहा है'
+      passed: 'सभी पास'
+      failed: 'कुछ फेल'
+
+id:
+  page_title: 'Uji Coba'
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Pertama
+    second: Kedua
+    third: Ketiga
+  secondGroup:
+    first: Pertama
+  report:
+    passed: Lulus
+    failed: Gagal
+    expected: Diharapkan
+    received: Diterima
+    error: 'Kesalahan tak terduga'
+    empty: 'Tidak ada pernyataan yang dijalankan — janji yang tidak ditunggu?'
+    fixtures: Fixture
+    fixtures_hint: 'apa yang dibaca dan ditulis oleh tes'
+    state:
+      running: 'Sedang berjalan'
+      passed: 'Semua lulus'
+      failed: 'Beberapa gagal'
+
+it:
+  page_title: Test
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Primo
+    second: Secondo
+    third: Terzo
+  secondGroup:
+    first: Primo
+  report:
+    passed: Superato
+    failed: Fallito
+    expected: Atteso
+    received: Ricevuto
+    error: 'Errore imprevisto'
+    empty: 'Nessuna asserzione eseguita — una promessa non attesa?'
+    fixtures: Fixtures
+    fixtures_hint: 'cosa i test leggono e scrivono'
+    state:
+      running: 'In esecuzione'
+      passed: 'Tutti superati'
+      failed: 'Alcuni falliti'
+
+ja:
+  page_title: テスト
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: 最初
+    second: 第二
+    third: 第三
+  secondGroup:
+    first: 最初
+  report:
+    passed: 成功
+    failed: 失敗
+    expected: 期待される結果
+    received: 実際の結果
+    error: 予期しないエラー
+    empty: 'アサーションが実行されていません — プロミスが待機されていない？'
+    fixtures: フィクスチャ
+    fixtures_hint: テストが読み書きするもの
+    state:
+      running: 実行中
+      passed: すべて成功
+      failed: いくつかが失敗
+
+ko:
+  page_title: 테스트
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: '첫 번째'
+    second: '두 번째'
+    third: '세 번째'
+  secondGroup:
+    first: '첫 번째'
+  report:
+    passed: 통과
+    failed: 실패
+    expected: '예상된 결과'
+    received: '받은 결과'
+    error: '예상치 못한 오류'
+    empty: '실행된 단언이 없습니다 — 약속이 기다려지지 않았나요?'
+    fixtures: 픽스처
+    fixtures_hint: '테스트가 읽고 쓰는 내용'
+    state:
+      running: '실행 중'
+      passed: '모두 통과'
+      failed: '일부 실패'
+
+nl:
+  page_title: Tests
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Eerste
+    second: Tweede
+    third: Derde
+  secondGroup:
+    first: Eerste
+  report:
+    passed: Geslaagd
+    failed: Mislukt
+    expected: Verwacht
+    received: Ontvangen
+    error: 'Onverwachte fout'
+    empty: 'Geen assertie uitgevoerd — een belofte niet gewacht?'
+    fixtures: Fixtures
+    fixtures_hint: 'wat de tests lezen en schrijven'
+    state:
+      running: Bezig
+      passed: 'Alle geslaagd'
+      failed: 'Sommige mislukt'
+
+pl:
+  page_title: Testy
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Pierwszy
+    second: Drugi
+    third: Trzeci
+  secondGroup:
+    first: Pierwszy
+  report:
+    passed: Zaliczono
+    failed: 'Nie zaliczono'
+    expected: Oczekiwano
+    received: Otrzymano
+    error: 'Nieoczekiwany błąd'
+    empty: 'Nie wykonano żadnych asercji — obietnica nie została oczekiwana?'
+    fixtures: 'Dane testowe'
+    fixtures_hint: 'to, co testy odczytują i zapisują'
+    state:
+      running: 'W trakcie'
+      passed: 'Wszystkie zaliczone'
+      failed: 'Niektóre niezaliczone'
+
+pt_BR:
+  page_title: Testes
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Primeiro
+    second: Segundo
+    third: Terceiro
+  secondGroup:
+    first: Primeiro
+  report:
+    passed: Aprovado
+    failed: Reprovado
+    expected: Esperado
+    received: Recebido
+    error: 'Erro inesperado'
+    empty: 'Nenhuma afirmação executada — uma promessa não aguardada?'
+    fixtures: Fixtures
+    fixtures_hint: 'o que os testes leem e escrevem'
+    state:
+      running: Executando
+      passed: 'Todos aprovados'
+      failed: 'Alguns reprovados'
+
+ru:
+  page_title: Тесты
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Первый
+    second: Второй
+    third: Третий
+  secondGroup:
+    first: Первый
+  report:
+    passed: Пройдено
+    failed: 'Не пройдено'
+    expected: Ожидалось
+    received: Получено
+    error: 'Неожиданная ошибка'
+    empty: 'Не выполнено ни одного утверждения — возможно, промис не дождан?'
+    fixtures: Фикстуры
+    fixtures_hint: 'что тесты читают и записывают'
+    state:
+      running: 'В процессе'
+      passed: 'Все пройдены'
+      failed: 'Некоторые не пройдены'
+
+th:
+  page_title: การทดสอบ
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: แรก
+    second: ที่สอง
+    third: ที่สาม
+  secondGroup:
+    first: แรก
+  report:
+    passed: ผ่าน
+    failed: ไม่ผ่าน
+    expected: ที่คาดหวัง
+    received: ที่ได้รับ
+    error: ข้อผิดพลาดที่ไม่คาดคิด
+    empty: 'ไม่มีการทดสอบ — สัญญาที่ไม่รอ?'
+    fixtures: ฟิกซ์เจอร์
+    fixtures_hint: สิ่งที่การทดสอบอ่านและเขียน
+    state:
+      running: กำลังทำงาน
+      passed: ทั้งหมดผ่าน
+      failed: บางส่วนไม่ผ่าน
+
+tr:
+  page_title: Testler
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: Birinci
+    second: İkinci
+    third: Üçüncü
+  secondGroup:
+    first: Birinci
+  report:
+    passed: Geçti
+    failed: Başarısız
+    expected: Beklenen
+    received: Alınan
+    error: 'Beklenmeyen hata'
+    empty: 'Hiçbir doğrulama çalışmadı — bir vaad beklenmedi mi?'
+    fixtures: Düzenekler
+    fixtures_hint: 'testlerin okuduğu ve yazdığı şeyler'
+    state:
+      running: Çalışıyor
+      passed: 'Hepsi geçti'
+      failed: 'Bazıları başarısız oldu'
+
+ur:
+  page_title: ٹیسٹ
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: پہلا
+    second: دوسرا
+    third: تیسرا
+  secondGroup:
+    first: پہلا
+  report:
+    passed: پاس
+    failed: ناکام
+    expected: متوقع
+    received: موصولہ
+    error: 'غیر متوقع خرابی'
+    empty: 'کوئی دعویٰ نہیں چلا — کیا وعدہ پورا نہیں ہوا؟'
+    fixtures: فکسچر
+    fixtures_hint: 'جو ٹیسٹ پڑھتے اور لکھتے ہیں'
+    state:
+      running: 'چل رہا ہے'
+      passed: 'تمام پاس'
+      failed: 'کچھ ناکام'
+
+vi:
+  page_title: 'Bài kiểm tra'
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: 'Đầu tiên'
+    second: 'Thứ hai'
+    third: 'Thứ ba'
+  secondGroup:
+    first: 'Đầu tiên'
+  report:
+    passed: 'Đã qua'
+    failed: 'Thất bại'
+    expected: 'Dự kiến'
+    received: 'Nhận được'
+    error: 'Lỗi không mong muốn'
+    empty: 'Không có sự khẳng định nào được chạy — có phải một lời hứa không được chờ đợi?'
+    fixtures: 'Dữ liệu kiểm tra'
+    fixtures_hint: 'những gì các bài kiểm tra đọc và ghi'
+    state:
+      running: 'Đang chạy'
+      passed: 'Tất cả đã qua'
+      failed: 'Một số đã thất bại'
+
+zh:
+  page_title: 测试
+  page_icon: 'ph:bold/test-tube'
+  firstGroup:
+    first: 第一
+    second: 第二
+    third: 第三
+  secondGroup:
+    first: 第一
+  report:
+    passed: 通过
+    failed: 失败
+    expected: 预期
+    received: 实际
+    error: 意外错误
+    empty: '没有断言运行 — 是不是没有等待承诺？'
+    fixtures: 固定装置
+    fixtures_hint: 测试读取和写入的内容
+    state:
+      running: 运行中
+      passed: 全部通过
+      failed: 部分失败

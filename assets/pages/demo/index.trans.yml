@@ -1,0 +1,484 @@
+en:
+  page_title: Demo
+  page_icon: ph:bold/puzzle-piece
+
+  section:
+    init:
+      title: Component Initialization
+      intro: There are several ways to bind a component to a DOM element. Each method determines which element the component will use as its root.
+
+  init:
+    parent:
+      title: Via the parent
+      body: The component uses its containing DOM element as its root.
+    previous:
+      title: Via the previous element
+      body: The component uses the preceding sibling DOM element as its root.
+    class:
+      title: Via a CSS class
+      body: The component uses the DOM element carrying the auto-generated CSS class as its root.
+    server_side:
+      title: Server-side component
+      body: Produced by a PHP class on the server. Allows reading files, querying the database, using services, or altering page content during rendering.
+
+ar:
+  page_title: 'عرض تجريبي'
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'تهيئة المكون'
+      intro: 'هناك عدة طرق لربط مكون بعنصر DOM. تحدد كل طريقة العنصر الذي سيستخدمه المكون كجذر له.'
+  init:
+    parent:
+      title: 'عبر العنصر الأب'
+      body: 'يستخدم المكون عنصر DOM المحتوي عليه كجذر له.'
+    previous:
+      title: 'عبر العنصر السابق'
+      body: 'يستخدم المكون عنصر DOM المجاور السابق كجذر له.'
+    class:
+      title: 'عبر فئة CSS'
+      body: 'يستخدم المكون عنصر DOM الذي يحمل فئة CSS المولدة تلقائيًا كجذر له.'
+    server_side:
+      title: 'مكون من جانب الخادم'
+      body: 'يتم إنتاجه بواسطة فئة PHP على الخادم. يسمح بقراءة الملفات، واستعلام قاعدة البيانات، واستخدام الخدمات، أو تعديل محتوى الصفحة أثناء العرض.'
+
+bn:
+  page_title: ডেমো
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'কম্পোনেন্ট ইনিশিয়ালাইজেশন'
+      intro: 'একটি কম্পোনেন্টকে একটি DOM উপাদানের সাথে যুক্ত করার কয়েকটি উপায় রয়েছে। প্রতিটি পদ্ধতি নির্ধারণ করে কোন উপাদানটি কম্পোনেন্টটি তার মূল হিসেবে ব্যবহার করবে।'
+  init:
+    parent:
+      title: 'প্যারেন্টের মাধ্যমে'
+      body: 'কম্পোনেন্টটি তার ধারণকারী DOM উপাদানটিকে তার মূল হিসেবে ব্যবহার করে।'
+    previous:
+      title: 'পূর্ববর্তী উপাদানের মাধ্যমে'
+      body: 'কম্পোনেন্টটি পূর্ববর্তী সিবলিং DOM উপাদানটিকে তার মূল হিসেবে ব্যবহার করে।'
+    class:
+      title: 'একটি CSS ক্লাসের মাধ্যমে'
+      body: 'কম্পোনেন্টটি স্বয়ংক্রিয়ভাবে তৈরি করা CSS ক্লাস ধারণকারী DOM উপাদানটিকে তার মূল হিসেবে ব্যবহার করে।'
+    server_side:
+      title: 'সার্ভার-সাইড কম্পোনেন্ট'
+      body: 'সার্ভারে একটি PHP ক্লাস দ্বারা উত্পন্ন। ফাইল পড়া, ডাটাবেসে প্রশ্ন করা, পরিষেবাগুলি ব্যবহার করা বা রেন্ডারিংয়ের সময় পৃষ্ঠা বিষয়বস্তু পরিবর্তন করার অনুমতি দেয়।'
+
+de:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: Komponenteninitialisierung
+      intro: 'Es gibt mehrere Möglichkeiten, eine Komponente an ein DOM-Element zu binden. Jede Methode bestimmt, welches Element die Komponente als Wurzel verwenden wird.'
+  init:
+    parent:
+      title: 'Über das übergeordnete Element'
+      body: 'Die Komponente verwendet ihr enthaltendes DOM-Element als Wurzel.'
+    previous:
+      title: 'Über das vorherige Element'
+      body: 'Die Komponente verwendet das vorhergehende Geschwister-DOM-Element als Wurzel.'
+    class:
+      title: 'Über eine CSS-Klasse'
+      body: 'Die Komponente verwendet das DOM-Element, das die automatisch generierte CSS-Klasse trägt, als Wurzel.'
+    server_side:
+      title: 'Server-seitige Komponente'
+      body: 'Erzeugt von einer PHP-Klasse auf dem Server. Ermöglicht das Lesen von Dateien, Abfragen der Datenbank, die Nutzung von Diensten oder das Ändern des Seiteninhalts während des Renderns.'
+
+es:
+  page_title: Demostración
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Inicialización del Componente'
+      intro: 'Hay varias formas de vincular un componente a un elemento del DOM. Cada método determina qué elemento utilizará el componente como su raíz.'
+  init:
+    parent:
+      title: 'A través del padre'
+      body: 'El componente utiliza su elemento DOM contenedor como su raíz.'
+    previous:
+      title: 'A través del elemento anterior'
+      body: 'El componente utiliza el elemento DOM hermano anterior como su raíz.'
+    class:
+      title: 'A través de una clase CSS'
+      body: 'El componente utiliza el elemento DOM que lleva la clase CSS autogenerada como su raíz.'
+    server_side:
+      title: 'Componente del lado del servidor'
+      body: 'Producido por una clase PHP en el servidor. Permite leer archivos, consultar la base de datos, usar servicios o alterar el contenido de la página durante el renderizado.'
+
+fa:
+  page_title: دمو
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'راه‌اندازی کامپوننت'
+      intro: 'چندین روش برای اتصال یک کامپوننت به یک عنصر DOM وجود دارد. هر روش تعیین می‌کند که کدام عنصر به عنوان ریشه کامپوننت استفاده شود.'
+  init:
+    parent:
+      title: 'از طریق والد'
+      body: 'این کامپوننت از عنصر DOM حاوی خود به عنوان ریشه استفاده می‌کند.'
+    previous:
+      title: 'از طریق عنصر قبلی'
+      body: 'این کامپوننت از عنصر DOM خواهر قبلی به عنوان ریشه استفاده می‌کند.'
+    class:
+      title: 'از طریق یک کلاس CSS'
+      body: 'این کامپوننت از عنصر DOM که کلاس CSS به‌صورت خودکار تولید شده را به عنوان ریشه استفاده می‌کند.'
+    server_side:
+      title: 'کامپوننت سمت سرور'
+      body: 'تولید شده توسط یک کلاس PHP در سرور. اجازه می‌دهد تا فایل‌ها را بخوانید، پایگاه داده را استعلام کنید، از خدمات استفاده کنید، یا محتوای صفحه را در هنگام رندر تغییر دهید.'
+
+fi:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Komponentin alustaminen'
+      intro: 'Komponenttia voidaan sitoa DOM-elementtiin useilla eri tavoilla. Jokainen menetelmä määrittää, mikä elementti toimii komponentin juurena.'
+  init:
+    parent:
+      title: 'Vanhemman kautta'
+      body: 'Komponentti käyttää sisältävää DOM-elementtiään juurena.'
+    previous:
+      title: 'Edellisen elementin kautta'
+      body: 'Komponentti käyttää edellistä sisar DOM-elementtiä juurena.'
+    class:
+      title: 'CSS-luokan kautta'
+      body: 'Komponentti käyttää automaattisesti luotua CSS-luokkaa kantavaa DOM-elementtiä juurena.'
+    server_side:
+      title: 'Palvelinpuolen komponentti'
+      body: 'Tuotettu PHP-luokan avulla palvelimella. Mahdollistaa tiedostojen lukemisen, tietokannan kyselyt, palveluiden käytön tai sivun sisällön muokkaamisen renderöinnin aikana.'
+
+fr:
+  page_title: Démo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Initialisation du composant'
+      intro: 'Il existe plusieurs façons de lier un composant à un élément DOM. Chaque méthode détermine quel élément le composant utilisera comme racine.'
+  init:
+    parent:
+      title: 'Via le parent'
+      body: 'Le composant utilise son élément DOM conteneur comme racine.'
+    previous:
+      title: "Via l'élément précédent"
+      body: "Le composant utilise l'élément DOM frère précédent comme racine."
+    class:
+      title: 'Via une classe CSS'
+      body: "Le composant utilise l'élément DOM portant la classe CSS auto-générée comme racine."
+    server_side:
+      title: 'Composant côté serveur'
+      body: "Produite par une classe PHP sur le serveur. Permet de lire des fichiers, d'interroger la base de données, d'utiliser des services ou de modifier le contenu de la page lors du rendu."
+
+he:
+  page_title: דמו
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'אתחול רכיב'
+      intro: 'ישנן מספר דרכים לקשר רכיב לאלמנט DOM. כל שיטה קובעת אילו אלמנטים הרכיב ישתמש בהם כשורש שלו.'
+  init:
+    parent:
+      title: 'דרך ההורה'
+      body: 'הרכיב משתמש באלמנט ה-DOM המכיל אותו כבסיס שלו.'
+    previous:
+      title: 'דרך האלמנט הקודם'
+      body: 'הרכיב משתמש באלמנט ה-DOM האחראי הקודם כבסיס שלו.'
+    class:
+      title: 'דרך מחלקת CSS'
+      body: 'הרכיב משתמש באלמנט ה-DOM הנושא את מחלקת ה-CSS שנוצרה אוטומטית כבסיס שלו.'
+    server_side:
+      title: 'רכיב בצד השרת'
+      body: 'נוצר על ידי מחלקת PHP בשרת. מאפשר קריאת קבצים, שאילתת מסד נתונים, שימוש בשירותים או שינוי תוכן הדף במהלך הרינדור.'
+
+hi:
+  page_title: डेमो
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'घटक प्रारंभ'
+      intro: 'एक घटक को DOM तत्व से बंधने के कई तरीके हैं। प्रत्येक विधि निर्धारित करती है कि घटक किस तत्व का उपयोग अपने मूल के रूप में करेगा।'
+  init:
+    parent:
+      title: 'माता-पिता के माध्यम से'
+      body: 'घटक अपने समावेशी DOM तत्व का उपयोग अपने मूल के रूप में करता है।'
+    previous:
+      title: 'पिछले तत्व के माध्यम से'
+      body: 'घटक पूर्ववर्ती भाई DOM तत्व का उपयोग अपने मूल के रूप में करता है।'
+    class:
+      title: 'CSS वर्ग के माध्यम से'
+      body: 'घटक उस DOM तत्व का उपयोग करता है जो स्वचालित रूप से उत्पन्न CSS वर्ग को ले जाता है, अपने मूल के रूप में।'
+    server_side:
+      title: 'सर्वर-साइड घटक'
+      body: 'सर्वर पर PHP वर्ग द्वारा उत्पन्न। फ़ाइलें पढ़ने, डेटाबेस को क्वेरी करने, सेवाओं का उपयोग करने या रेंडरिंग के दौरान पृष्ठ सामग्री को बदलने की अनुमति देता है।'
+
+id:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Inisialisasi Komponen'
+      intro: 'Ada beberapa cara untuk mengikat sebuah komponen ke elemen DOM. Setiap metode menentukan elemen mana yang akan digunakan komponen sebagai akarnya.'
+  init:
+    parent:
+      title: 'Melalui induk'
+      body: 'Komponen menggunakan elemen DOM yang mengandungnya sebagai akar.'
+    previous:
+      title: 'Melalui elemen sebelumnya'
+      body: 'Komponen menggunakan elemen DOM saudara sebelumnya sebagai akar.'
+    class:
+      title: 'Melalui kelas CSS'
+      body: 'Komponen menggunakan elemen DOM yang memiliki kelas CSS yang dihasilkan secara otomatis sebagai akar.'
+    server_side:
+      title: 'Komponen sisi server'
+      body: 'Dihasilkan oleh kelas PHP di server. Memungkinkan pembacaan file, kueri basis data, menggunakan layanan, atau mengubah konten halaman selama rendering.'
+
+it:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Inizializzazione del componente'
+      intro: 'Ci sono diversi modi per collegare un componente a un elemento DOM. Ogni metodo determina quale elemento il componente utilizzerà come radice.'
+  init:
+    parent:
+      title: 'Attraverso il genitore'
+      body: 'Il componente utilizza il suo elemento DOM contenitore come radice.'
+    previous:
+      title: "Attraverso l'elemento precedente"
+      body: "Il componente utilizza l'elemento DOM fratello precedente come radice."
+    class:
+      title: 'Attraverso una classe CSS'
+      body: "Il componente utilizza l'elemento DOM che porta la classe CSS generata automaticamente come radice."
+    server_side:
+      title: 'Componente lato server'
+      body: 'Prodotto da una classe PHP sul server. Consente di leggere file, interrogare il database, utilizzare servizi o modificare il contenuto della pagina durante il rendering.'
+
+ja:
+  page_title: デモ
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: コンポーネントの初期化
+      intro: コンポーネントをDOM要素にバインドする方法はいくつかあります。各メソッドはコンポーネントがどの要素をルートとして使用するかを決定します。
+  init:
+    parent:
+      title: 親を介して
+      body: コンポーネントは、その含まれているDOM要素をルートとして使用します。
+    previous:
+      title: 前の要素を介して
+      body: コンポーネントは、前の兄弟DOM要素をルートとして使用します。
+    class:
+      title: CSSクラスを介して
+      body: コンポーネントは、自動生成されたCSSクラスを持つDOM要素をルートとして使用します。
+    server_side:
+      title: サーバーサイドコンポーネント
+      body: サーバー上のPHPクラスによって生成されます。ファイルの読み取り、データベースのクエリ、サービスの使用、またはレンダリング中のページコンテンツの変更を可能にします。
+
+ko:
+  page_title: 데모
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: '컴포넌트 초기화'
+      intro: '컴포넌트를 DOM 요소에 바인딩하는 방법은 여러 가지가 있습니다. 각 방법은 컴포넌트가 사용할 루트 요소를 결정합니다.'
+  init:
+    parent:
+      title: '부모를 통해'
+      body: '컴포넌트는 포함된 DOM 요소를 루트로 사용합니다.'
+    previous:
+      title: '이전 요소를 통해'
+      body: '컴포넌트는 이전 형제 DOM 요소를 루트로 사용합니다.'
+    class:
+      title: 'CSS 클래스를 통해'
+      body: '컴포넌트는 자동 생성된 CSS 클래스를 가진 DOM 요소를 루트로 사용합니다.'
+    server_side:
+      title: '서버 측 컴포넌트'
+      body: '서버의 PHP 클래스에 의해 생성됩니다. 파일 읽기, 데이터베이스 쿼리, 서비스 사용 또는 렌더링 중 페이지 콘텐츠 변경을 허용합니다.'
+
+nl:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: Componentinitialisatie
+      intro: 'Er zijn verschillende manieren om een component aan een DOM-element te binden. Elke methode bepaalt welk element de component als zijn wortel zal gebruiken.'
+  init:
+    parent:
+      title: 'Via de bovenliggende'
+      body: 'De component gebruikt zijn omhullende DOM-element als zijn wortel.'
+    previous:
+      title: 'Via het vorige element'
+      body: 'De component gebruikt het voorgaande broeder DOM-element als zijn wortel.'
+    class:
+      title: 'Via een CSS-klasse'
+      body: 'De component gebruikt het DOM-element met de automatisch gegenereerde CSS-klasse als zijn wortel.'
+    server_side:
+      title: 'Server-side component'
+      body: 'Gemaakt door een PHP-klasse op de server. Maakt het mogelijk om bestanden te lezen, de database te bevragen, services te gebruiken of de pagina-inhoud tijdens het renderen te wijzigen.'
+
+pl:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Inicjalizacja komponentu'
+      intro: 'Istnieje kilka sposobów powiązania komponentu z elementem DOM. Każda metoda określa, który element komponent będzie używał jako swój korzeń.'
+  init:
+    parent:
+      title: 'Przez rodzica'
+      body: 'Komponent używa swojego zawierającego elementu DOM jako swojego korzenia.'
+    previous:
+      title: 'Przez poprzedni element'
+      body: 'Komponent używa poprzedniego elementu rodzeństwa DOM jako swojego korzenia.'
+    class:
+      title: 'Przez klasę CSS'
+      body: 'Komponent używa elementu DOM noszącego automatycznie generowaną klasę CSS jako swojego korzenia.'
+    server_side:
+      title: 'Komponent po stronie serwera'
+      body: 'Generowany przez klasę PHP na serwerze. Umożliwia odczyt plików, zapytania do bazy danych, korzystanie z usług lub modyfikację treści strony podczas renderowania.'
+
+pt_BR:
+  page_title: Demonstração
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Inicialização do Componente'
+      intro: 'Existem várias maneiras de vincular um componente a um elemento DOM. Cada método determina qual elemento o componente usará como raiz.'
+  init:
+    parent:
+      title: 'Via o pai'
+      body: 'O componente usa seu elemento DOM contêiner como raiz.'
+    previous:
+      title: 'Via o elemento anterior'
+      body: 'O componente usa o elemento DOM irmão anterior como raiz.'
+    class:
+      title: 'Via uma classe CSS'
+      body: 'O componente usa o elemento DOM que possui a classe CSS gerada automaticamente como raiz.'
+    server_side:
+      title: 'Componente do lado do servidor'
+      body: 'Produzido por uma classe PHP no servidor. Permite ler arquivos, consultar o banco de dados, usar serviços ou alterar o conteúdo da página durante a renderização.'
+
+ru:
+  page_title: Демо
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Инициализация компонента'
+      intro: 'Существует несколько способов привязать компонент к элементу DOM. Каждый метод определяет, какой элемент будет использоваться компонентом в качестве корневого.'
+  init:
+    parent:
+      title: 'Через родительский элемент'
+      body: 'Компонент использует содержащий его элемент DOM в качестве корневого.'
+    previous:
+      title: 'Через предыдущий элемент'
+      body: 'Компонент использует предшествующий элемент DOM в качестве корневого.'
+    class:
+      title: 'Через CSS класс'
+      body: 'Компонент использует элемент DOM с автоматически сгенерированным CSS классом в качестве корневого.'
+    server_side:
+      title: 'Серверный компонент'
+      body: 'Создан классом PHP на сервере. Позволяет читать файлы, запрашивать базу данных, использовать сервисы или изменять содержимое страницы во время рендеринга.'
+
+th:
+  page_title: เดโม
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: การเริ่มต้นส่วนประกอบ
+      intro: 'มีหลายวิธีในการเชื่อมโยงส่วนประกอบกับองค์ประกอบ DOM โดยแต่ละวิธีจะกำหนดว่าองค์ประกอบใดที่ส่วนประกอบจะใช้เป็นรากของมัน.'
+  init:
+    parent:
+      title: ผ่านผู้ปกครอง
+      body: 'ส่วนประกอบใช้องค์ประกอบ DOM ที่บรรจุอยู่เป็นรากของมัน.'
+    previous:
+      title: ผ่านองค์ประกอบก่อนหน้า
+      body: 'ส่วนประกอบใช้องค์ประกอบ DOM พี่น้องก่อนหน้าเป็นรากของมัน.'
+    class:
+      title: 'ผ่านคลาส CSS'
+      body: 'ส่วนประกอบใช้องค์ประกอบ DOM ที่มีคลาส CSS ที่สร้างขึ้นอัตโนมัติเป็นรากของมัน.'
+    server_side:
+      title: ส่วนประกอบฝั่งเซิร์ฟเวอร์
+      body: 'สร้างโดยคลาส PHP บนเซิร์ฟเวอร์ ช่วยให้สามารถอ่านไฟล์ สอบถามฐานข้อมูล ใช้บริการ หรือแก้ไขเนื้อหาหน้าในระหว่างการเรนเดอร์.'
+
+tr:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Bileşen Başlatma'
+      intro: 'Bir bileşeni bir DOM öğesine bağlamanın birkaç yolu vardır. Her yöntem, bileşenin hangi öğeyi kök olarak kullanacağını belirler.'
+  init:
+    parent:
+      title: 'Üst öğe ile'
+      body: 'Bileşen, içindeki DOM öğesini kök olarak kullanır.'
+    previous:
+      title: 'Önceki öğe ile'
+      body: 'Bileşen, önceki kardeş DOM öğesini kök olarak kullanır.'
+    class:
+      title: 'CSS sınıfı ile'
+      body: 'Bileşen, otomatik olarak oluşturulmuş CSS sınıfını taşıyan DOM öğesini kök olarak kullanır.'
+    server_side:
+      title: 'Sunucu tarafı bileşeni'
+      body: 'Sunucuda bir PHP sınıfı tarafından üretilir. Dosyaları okuma, veritabanını sorgulama, hizmetleri kullanma veya sayfa içeriğini oluşturma sırasında değiştirme imkanı sağlar.'
+
+ur:
+  page_title: ڈیمو
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'اجزاء کی ابتدائی ترتیب'
+      intro: 'اجزاء کو DOM عنصر سے باندھنے کے کئی طریقے ہیں۔ ہر طریقہ طے کرتا ہے کہ جزو کس عنصر کو اپنی جڑ کے طور پر استعمال کرے گا۔'
+  init:
+    parent:
+      title: 'والد کے ذریعے'
+      body: 'جزو اپنے موجودہ DOM عنصر کو اپنی جڑ کے طور پر استعمال کرتا ہے۔'
+    previous:
+      title: 'پچھلے عنصر کے ذریعے'
+      body: 'جزو پچھلے ہم جماعت DOM عنصر کو اپنی جڑ کے طور پر استعمال کرتا ہے۔'
+    class:
+      title: 'CSS کلاس کے ذریعے'
+      body: 'جزو اس DOM عنصر کو اپنی جڑ کے طور پر استعمال کرتا ہے جس پر خودکار طور پر تیار کردہ CSS کلاس ہو۔'
+    server_side:
+      title: 'سرور سائیڈ جزو'
+      body: 'سرور پر ایک PHP کلاس کے ذریعے تیار کردہ۔ فائلیں پڑھنے، ڈیٹا بیس کی تلاش، خدمات استعمال کرنے، یا رینڈرنگ کے دوران صفحے کے مواد میں تبدیلی کی اجازت دیتا ہے۔'
+
+vi:
+  page_title: Demo
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 'Khởi tạo Thành phần'
+      intro: 'Có nhiều cách để liên kết một thành phần với một phần tử DOM. Mỗi phương pháp xác định phần tử nào mà thành phần sẽ sử dụng làm gốc.'
+  init:
+    parent:
+      title: 'Qua phần tử cha'
+      body: 'Thành phần sử dụng phần tử DOM chứa nó làm gốc.'
+    previous:
+      title: 'Qua phần tử trước'
+      body: 'Thành phần sử dụng phần tử DOM anh chị em đứng trước làm gốc.'
+    class:
+      title: 'Qua một lớp CSS'
+      body: 'Thành phần sử dụng phần tử DOM mang lớp CSS tự động tạo làm gốc.'
+    server_side:
+      title: 'Thành phần phía máy chủ'
+      body: 'Được tạo ra bởi một lớp PHP trên máy chủ. Cho phép đọc tệp, truy vấn cơ sở dữ liệu, sử dụng dịch vụ hoặc thay đổi nội dung trang trong quá trình kết xuất.'
+
+zh:
+  page_title: 演示
+  page_icon: 'ph:bold/puzzle-piece'
+  section:
+    init:
+      title: 组件初始化
+      intro: 有几种方法可以将组件绑定到DOM元素。每种方法确定组件将使用哪个元素作为其根。
+  init:
+    parent:
+      title: 通过父元素
+      body: 组件使用其包含的DOM元素作为根。
+    previous:
+      title: 通过前一个元素
+      body: 组件使用前一个兄弟DOM元素作为根。
+    class:
+      title: 通过CSS类
+      body: 组件使用携带自动生成CSS类的DOM元素作为根。
+    server_side:
+      title: 服务器端组件
+      body: 由服务器上的PHP类生成。允许在渲染期间读取文件、查询数据库、使用服务或修改页面内容。

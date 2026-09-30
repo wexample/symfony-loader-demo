@@ -1,9 +1,0 @@
-firstGroup:
-  first: 第一
-  second: 第二
-  third: 第三
-secondGroup:
-  first: 测试布局服务器翻译
-string:
-  client_side: 客户端布局翻译
-  server_side: 服务器布局翻译

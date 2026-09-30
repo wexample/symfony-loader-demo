@@ -1,0 +1,114 @@
+en:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-2
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-2
+
+ar:
+  string:
+    client_side: ترجمة_اختبار_الواجهة_العميلة-2
+    server_side: ترجمة_اختبار_الواجهة_الخادمة-2
+
+bn:
+  string:
+    client_side: ক্লায়েন্ট_সাইড_পরীক্ষা_ভিউ_অনুবাদ-২
+    server_side: সার্ভার_সাইড_পরীক্ষা_ভিউ_অনুবাদ-২
+
+de:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-2
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-2
+
+es:
+  string:
+    client_side: TRADUCCIÓN_VUE_TEST_CLIENTE-2
+    server_side: TRADUCCIÓN_VUE_TEST_SERVIDOR-2
+
+fa:
+  string:
+    client_side: ترجمه-۲-آزمایش_سمت_کلاینت_ویو
+    server_side: ترجمه-۲-آزمایش_سمت_سرور_ویو
+
+fi:
+  string:
+    client_side: ASIakASIDE_TEST_VUE_KÄÄNNÖS-2
+    server_side: PALVELINSIDE_TEST_VUE_KÄÄNNÖS-2
+
+fr:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-2
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-2
+
+he:
+  string:
+    client_side: 'תרגום-2 צד לקוח'
+    server_side: 'תרגום-2 צד שרת'
+
+hi:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-2
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-2
+
+id:
+  string:
+    client_side: TERJEMAHAN_VUE_UJI_CLIEN_SISI-2
+    server_side: TERJEMAHAN_VUE_UJI_SERVER_SISI-2
+
+it:
+  string:
+    client_side: TEST_VUE_TRADUZIONE_CLIENTE-2
+    server_side: TEST_VUE_TRADUZIONE_SERVER-2
+
+ja:
+  string:
+    client_side: クライアントサイドテストVue翻訳-2
+    server_side: サーバーサイドテストVue翻訳-2
+
+ko:
+  string:
+    client_side: 클라이언트_측_테스트_VUE_번역-2
+    server_side: 서버_측_테스트_VUE_번역-2
+
+nl:
+  string:
+    client_side: CLIENT_SIDE_TEST_VUE_TRANSLATION-2
+    server_side: SERVER_SIDE_TEST_VUE_TRANSLATION-2
+
+pl:
+  string:
+    client_side: TEST_WERSJI_PO_stronie_KLIENTA-2
+    server_side: TEST_WERSJI_PO_stronie_SERWERA-2
+
+pt_BR:
+  string:
+    client_side: TESTE_CLIENTE_VUE_TRADUCAO-2
+    server_side: TESTE_SERVIDOR_VUE_TRADUCAO-2
+
+ru:
+  string:
+    client_side: КЛИЕНТСКАЯ_СТОРОНА_ТЕСТ_ПЕРЕВОДА_VUE-2
+    server_side: СЕРВЕРНАЯ_СТОРОНА_ТЕСТ_ПЕРЕВОДА_VUE-2
+
+th:
+  string:
+    client_side: การแปลทดสอบฝั่งไคลเอนต์-2
+    server_side: การแปลทดสอบฝั่งเซิร์ฟเวอร์-2
+
+tr:
+  string:
+    client_side: MÜŞTERİ_TARAFI_TEST_VUE_TERCÜMESİ-2
+    server_side: SUNUCU_TARAFI_TEST_VUE_TERCÜMESİ-2
+
+ur:
+  string:
+    client_side: کلائنٹ_سائیڈ_ٹیسٹ_ویو_ترجمہ-2
+    server_side: سرور_سائیڈ_ٹیسٹ_ویو_ترجمہ-2
+
+vi:
+  string:
+    client_side: 'KIỂM TRA_CLIENT_SIDE_VUE_DỊCH-2'
+    server_side: 'KIỂM TRA_SERVER_SIDE_VUE_DỊCH-2'
+
+zh:
+  string:
+    client_side: '客户端测试 Vue 翻译-2'
+    server_side: '服务器端测试 Vue 翻译-2'
