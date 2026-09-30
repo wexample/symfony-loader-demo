@@ -1,0 +1,19 @@
+page_title: Demonstração
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 'Inicialização do Componente'
+    intro: 'Existem várias maneiras de vincular um componente a um elemento DOM. Cada método determina qual elemento o componente usará como raiz.'
+init:
+  parent:
+    title: 'Via o pai'
+    body: 'O componente usa seu elemento DOM contêiner como raiz.'
+  previous:
+    title: 'Via o elemento anterior'
+    body: 'O componente usa o elemento DOM irmão anterior como raiz.'
+  class:
+    title: 'Via uma classe CSS'
+    body: 'O componente usa o elemento DOM que possui a classe CSS gerada automaticamente como raiz.'
+  server_side:
+    title: 'Componente do lado do servidor'
+    body: 'Produzido por uma classe PHP no servidor. Permite ler arquivos, consultar o banco de dados, usar serviços ou alterar o conteúdo da página durante a renderização.'

@@ -1,0 +1,21 @@
+page_title: Testler
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: Birinci
+  second: İkinci
+  third: Üçüncü
+secondGroup:
+  first: Birinci
+report:
+  passed: Geçti
+  failed: Başarısız
+  expected: Beklenen
+  received: Alınan
+  error: 'Beklenmeyen hata'
+  empty: 'Hiçbir doğrulama çalışmadı — bir vaad beklenmedi mi?'
+  fixtures: Düzenekler
+  fixtures_hint: 'testlerin okuduğu ve yazdığı şeyler'
+  state:
+    running: Çalışıyor
+    passed: 'Hepsi geçti'
+    failed: 'Bazıları başarısız oldu'

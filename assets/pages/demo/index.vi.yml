@@ -1,0 +1,19 @@
+page_title: Demo
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 'Khởi tạo Thành phần'
+    intro: 'Có nhiều cách để liên kết một thành phần với một phần tử DOM. Mỗi phương pháp xác định phần tử nào mà thành phần sẽ sử dụng làm gốc.'
+init:
+  parent:
+    title: 'Qua phần tử cha'
+    body: 'Thành phần sử dụng phần tử DOM chứa nó làm gốc.'
+  previous:
+    title: 'Qua phần tử trước'
+    body: 'Thành phần sử dụng phần tử DOM anh chị em đứng trước làm gốc.'
+  class:
+    title: 'Qua một lớp CSS'
+    body: 'Thành phần sử dụng phần tử DOM mang lớp CSS tự động tạo làm gốc.'
+  server_side:
+    title: 'Thành phần phía máy chủ'
+    body: 'Được tạo ra bởi một lớp PHP trên máy chủ. Cho phép đọc tệp, truy vấn cơ sở dữ liệu, sử dụng dịch vụ hoặc thay đổi nội dung trang trong quá trình kết xuất.'

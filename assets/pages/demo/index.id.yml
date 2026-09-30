@@ -1,0 +1,19 @@
+page_title: Demo
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 'Inisialisasi Komponen'
+    intro: 'Ada beberapa cara untuk mengikat sebuah komponen ke elemen DOM. Setiap metode menentukan elemen mana yang akan digunakan komponen sebagai akarnya.'
+init:
+  parent:
+    title: 'Melalui induk'
+    body: 'Komponen menggunakan elemen DOM yang mengandungnya sebagai akar.'
+  previous:
+    title: 'Melalui elemen sebelumnya'
+    body: 'Komponen menggunakan elemen DOM saudara sebelumnya sebagai akar.'
+  class:
+    title: 'Melalui kelas CSS'
+    body: 'Komponen menggunakan elemen DOM yang memiliki kelas CSS yang dihasilkan secara otomatis sebagai akar.'
+  server_side:
+    title: 'Komponen sisi server'
+    body: 'Dihasilkan oleh kelas PHP di server. Memungkinkan pembacaan file, kueri basis data, menggunakan layanan, atau mengubah konten halaman selama rendering.'

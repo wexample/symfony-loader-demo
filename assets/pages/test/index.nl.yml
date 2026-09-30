@@ -1,0 +1,21 @@
+page_title: Tests
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: Eerste
+  second: Tweede
+  third: Derde
+secondGroup:
+  first: Eerste
+report:
+  passed: Geslaagd
+  failed: Mislukt
+  expected: Verwacht
+  received: Ontvangen
+  error: 'Onverwachte fout'
+  empty: 'Geen assertie uitgevoerd — een belofte niet gewacht?'
+  fixtures: Fixtures
+  fixtures_hint: 'wat de tests lezen en schrijven'
+  state:
+    running: Bezig
+    passed: 'Alle geslaagd'
+    failed: 'Sommige mislukt'

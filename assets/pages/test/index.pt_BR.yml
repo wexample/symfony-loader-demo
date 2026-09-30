@@ -1,0 +1,21 @@
+page_title: Testes
+page_icon: 'ph:bold/test-tube'
+firstGroup:
+  first: Primeiro
+  second: Segundo
+  third: Terceiro
+secondGroup:
+  first: Primeiro
+report:
+  passed: Aprovado
+  failed: Reprovado
+  expected: Esperado
+  received: Recebido
+  error: 'Erro inesperado'
+  empty: 'Nenhuma afirmação executada — uma promessa não aguardada?'
+  fixtures: Fixtures
+  fixtures_hint: 'o que os testes leem e escrevem'
+  state:
+    running: Executando
+    passed: 'Todos aprovados'
+    failed: 'Alguns reprovados'

@@ -1,0 +1,19 @@
+page_title: Demo
+page_icon: 'ph:bold/puzzle-piece'
+section:
+  init:
+    title: 'Bileşen Başlatma'
+    intro: 'Bir bileşeni bir DOM öğesine bağlamanın birkaç yolu vardır. Her yöntem, bileşenin hangi öğeyi kök olarak kullanacağını belirler.'
+init:
+  parent:
+    title: 'Üst öğe ile'
+    body: 'Bileşen, içindeki DOM öğesini kök olarak kullanır.'
+  previous:
+    title: 'Önceki öğe ile'
+    body: 'Bileşen, önceki kardeş DOM öğesini kök olarak kullanır.'
+  class:
+    title: 'CSS sınıfı ile'
+    body: 'Bileşen, otomatik olarak oluşturulmuş CSS sınıfını taşıyan DOM öğesini kök olarak kullanır.'
+  server_side:
+    title: 'Sunucu tarafı bileşeni'
+    body: 'Sunucuda bir PHP sınıfı tarafından üretilir. Dosyaları okuma, veritabanını sorgulama, hizmetleri kullanma veya sayfa içeriğini oluşturma sırasında değiştirme imkanı sağlar.'
