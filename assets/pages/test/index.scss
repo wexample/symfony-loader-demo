@@ -21,11 +21,11 @@
 
 // The whole header says how the run ended, by its edge.
 .test-report[data-state="passed"] .test-report--head {
-  box-shadow: inset 4px 0 0 var(--color-success-fill);
+  box-shadow: inset 4px 0 0 var(--success-9);
 }
 
 .test-report[data-state="failed"] .test-report--head {
-  box-shadow: inset 4px 0 0 var(--color-error-fill);
+  box-shadow: inset 4px 0 0 var(--error-9);
 }
 
 .test-report--duration {
@@ -59,7 +59,7 @@
 }
 
 .test-report--suite--failed > .test-report--suite-head {
-  background: var(--color-error-4);
+  background: var(--error-3);
 }
 
 .test-report--suite-name {
@@ -87,7 +87,7 @@
 }
 
 .test-report--method--failed > .test-report--method-name {
-  color: var(--color-error-23);
+  color: var(--error-11);
 }
 
 .test-report--assertions {
@@ -112,7 +112,7 @@
 .test-report--assertion--fail,
 .test-report--assertion--error {
   .test-report--message {
-    color: var(--color-error-23);
+    color: var(--error-11);
     font-weight: var(--font-weight-strong);
   }
 }
@@ -122,12 +122,12 @@
 }
 
 .test-report--icon--pass {
-  color: var(--color-success-fill);
+  color: var(--success-9);
 }
 
 .test-report--icon--fail,
 .test-report--icon--error {
-  color: var(--color-error-fill);
+  color: var(--error-9);
 }
 
 .test-report--icon--running {
@@ -142,7 +142,7 @@
   margin: var(--space-2) 0 var(--space-1);
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-box);
-  background: var(--color-error-4);
+  background: var(--error-3);
   font-size: var(--font-size-2);
 
   dt {
@@ -195,7 +195,7 @@
 }
 
 .test-fixtures--title {
-  color: var(--color-default-text);
+  color: var(--text-color-default);
   font-weight: var(--font-weight-strong);
 }
 
@@ -232,7 +232,7 @@
 #test-layout-component::before {
   display: inline-block;
   min-width: 14ch;
-  color: var(--color-cat-lavender-23);
+  color: var(--cat-lavender-11);
 }
 
 .test-string::before {
@@ -250,13 +250,13 @@
 
 // A component under test is a group, named by its own first line.
 [class*="test-component-string"]:not([class*="translated"]) {
-  color: var(--color-cat-aqua-23);
+  color: var(--cat-aqua-11);
   font-weight: var(--font-weight-strong);
 }
 
 [class*="test-component-string-translated"] {
   display: inline;
-  color: var(--color-cat-sunflower-23);
+  color: var(--cat-sunflower-11);
 }
 
 // What the component's script and stylesheet paint when they have run: a
@@ -265,9 +265,9 @@
 [class*="test-component-test-css"] {
   display: inline-block;
   padding: 0 var(--space-1);
-  border: 1px solid var(--color-cat-grass-23);
+  border: 1px solid var(--cat-grass-11);
   border-radius: var(--radius-pill);
-  color: var(--color-default-text);
+  color: var(--text-color-default);
   font-size: var(--font-size-1);
   line-height: 1.5;
 }
