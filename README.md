@@ -1,6 +1,6 @@
 # symfony_loader_demo
 
-Version: 6.0.6
+Version: 6.0.7
 
 `wexample/symfony-loader-testing` is a Symfony bundle that ships the fixture pages used to exercise `wexample/symfony-loader` and `wexample/symfony-design-system` in a real browser: layouts, components, Vue views, translations and responsive stylesheets, served by three controllers mounted under `_loader/test/`, `_loader/demo/` and `_loader/translations/`. Loading the test index runs the suite client-side — assets/pages/test/index.ts hands a list of test classes to `TestManagerPage.runTests()`, which reports each assertion in the console — so adaptive rendering, routing, usages, overlays or the no-JS fallback are checked against a rendered page rather than a mock.
 
