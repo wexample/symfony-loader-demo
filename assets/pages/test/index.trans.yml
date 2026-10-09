@@ -11,6 +11,9 @@ en:
     first: First
 
   report:
+    idle: Not run yet
+    run: Run
+    run_again: Run again
     passed: Passed
     failed: Failed
     expected: Expected
@@ -172,6 +175,9 @@ fr:
   secondGroup:
     first: First
   report:
+    idle: 'Pas encore lancés'
+    run: Lancer
+    run_again: Relancer
     passed: Réussis
     failed: Échoués
     expected: Attendu

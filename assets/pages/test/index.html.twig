@@ -26,10 +26,12 @@
              data-label-error="{{ '@page::report.error' | trans }}"
              data-label-empty="{{ '@page::report.empty' | trans }}">
         <header class="test-report--head">
-            <span class="test-report--state"></span>
+            <span class="test-report--state text-secondary">{{ '@page::report.idle' | trans }}</span>
             <span class="test-report--total-passed">{{ marker('success', '@page::report.passed' | trans, { count: 0, compact: true }) }}</span>
             <span class="test-report--total-failed">{{ marker('error', '@page::report.failed' | trans, { count: 0, compact: true }) }}</span>
             <span class="test-report--duration text-secondary"></span>
+            {#- A page loaded afresh with the run asked for. -#}
+            {{ button_link('ph:bold/play', (app.request.query.has('run') ? '@page::report.run_again' : '@page::report.run') | trans, path('loader_test_index', { run: 1 }), { class: 'button--invert' }) }}
         </header>
         <div class="test-report--suites"></div>
 
