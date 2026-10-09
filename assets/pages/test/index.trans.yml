@@ -1,5 +1,5 @@
 en:
-  page_title: Tests
+  page_title: Loader tests
   page_icon: ph:bold/test-tube
 
   firstGroup:
@@ -163,7 +163,7 @@ fi:
       failed: 'Jotkut hylätty'
 
 fr:
-  page_title: Tests
+  page_title: Tests du loader
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: First

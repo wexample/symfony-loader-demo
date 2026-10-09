@@ -1,5 +1,5 @@
 en:
-  page_title: Demo
+  page_title: Loader demo
   page_icon: ph:bold/puzzle-piece
 
   section:
@@ -148,7 +148,7 @@ fi:
       body: 'Tuotettu PHP-luokan avulla palvelimella. Mahdollistaa tiedostojen lukemisen, tietokannan kyselyt, palveluiden käytön tai sivun sisällön muokkaamisen renderöinnin aikana.'
 
 fr:
-  page_title: Démo
+  page_title: Démo du loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
