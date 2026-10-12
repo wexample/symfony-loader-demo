@@ -1,5 +1,5 @@
 en:
-  page_title: Loader demo
+  page_title: Loader
   page_icon: ph:bold/puzzle-piece
 
   section:
@@ -22,7 +22,7 @@ en:
       body: Produced by a PHP class on the server. Allows reading files, querying the database, using services, or altering page content during rendering.
 
 ar:
-  page_title: 'عرض تجريبي'
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -43,7 +43,7 @@ ar:
       body: 'يتم إنتاجه بواسطة فئة PHP على الخادم. يسمح بقراءة الملفات، واستعلام قاعدة البيانات، واستخدام الخدمات، أو تعديل محتوى الصفحة أثناء العرض.'
 
 bn:
-  page_title: ডেমো
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -64,7 +64,7 @@ bn:
       body: 'সার্ভারে একটি PHP ক্লাস দ্বারা উত্পন্ন। ফাইল পড়া, ডাটাবেসে প্রশ্ন করা, পরিষেবাগুলি ব্যবহার করা বা রেন্ডারিংয়ের সময় পৃষ্ঠা বিষয়বস্তু পরিবর্তন করার অনুমতি দেয়।'
 
 de:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -85,7 +85,7 @@ de:
       body: 'Erzeugt von einer PHP-Klasse auf dem Server. Ermöglicht das Lesen von Dateien, Abfragen der Datenbank, die Nutzung von Diensten oder das Ändern des Seiteninhalts während des Renderns.'
 
 es:
-  page_title: Demostración
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -106,7 +106,7 @@ es:
       body: 'Producido por una clase PHP en el servidor. Permite leer archivos, consultar la base de datos, usar servicios o alterar el contenido de la página durante el renderizado.'
 
 fa:
-  page_title: دمو
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -127,7 +127,7 @@ fa:
       body: 'تولید شده توسط یک کلاس PHP در سرور. اجازه می‌دهد تا فایل‌ها را بخوانید، پایگاه داده را استعلام کنید، از خدمات استفاده کنید، یا محتوای صفحه را در هنگام رندر تغییر دهید.'
 
 fi:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -148,7 +148,7 @@ fi:
       body: 'Tuotettu PHP-luokan avulla palvelimella. Mahdollistaa tiedostojen lukemisen, tietokannan kyselyt, palveluiden käytön tai sivun sisällön muokkaamisen renderöinnin aikana.'
 
 fr:
-  page_title: Démo du loader
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -169,7 +169,7 @@ fr:
       body: "Produite par une classe PHP sur le serveur. Permet de lire des fichiers, d'interroger la base de données, d'utiliser des services ou de modifier le contenu de la page lors du rendu."
 
 he:
-  page_title: דמו
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -190,7 +190,7 @@ he:
       body: 'נוצר על ידי מחלקת PHP בשרת. מאפשר קריאת קבצים, שאילתת מסד נתונים, שימוש בשירותים או שינוי תוכן הדף במהלך הרינדור.'
 
 hi:
-  page_title: डेमो
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -211,7 +211,7 @@ hi:
       body: 'सर्वर पर PHP वर्ग द्वारा उत्पन्न। फ़ाइलें पढ़ने, डेटाबेस को क्वेरी करने, सेवाओं का उपयोग करने या रेंडरिंग के दौरान पृष्ठ सामग्री को बदलने की अनुमति देता है।'
 
 id:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -232,7 +232,7 @@ id:
       body: 'Dihasilkan oleh kelas PHP di server. Memungkinkan pembacaan file, kueri basis data, menggunakan layanan, atau mengubah konten halaman selama rendering.'
 
 it:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -253,7 +253,7 @@ it:
       body: 'Prodotto da una classe PHP sul server. Consente di leggere file, interrogare il database, utilizzare servizi o modificare il contenuto della pagina durante il rendering.'
 
 ja:
-  page_title: デモ
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -274,7 +274,7 @@ ja:
       body: サーバー上のPHPクラスによって生成されます。ファイルの読み取り、データベースのクエリ、サービスの使用、またはレンダリング中のページコンテンツの変更を可能にします。
 
 ko:
-  page_title: 데모
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -295,7 +295,7 @@ ko:
       body: '서버의 PHP 클래스에 의해 생성됩니다. 파일 읽기, 데이터베이스 쿼리, 서비스 사용 또는 렌더링 중 페이지 콘텐츠 변경을 허용합니다.'
 
 nl:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -316,7 +316,7 @@ nl:
       body: 'Gemaakt door een PHP-klasse op de server. Maakt het mogelijk om bestanden te lezen, de database te bevragen, services te gebruiken of de pagina-inhoud tijdens het renderen te wijzigen.'
 
 pl:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -337,7 +337,7 @@ pl:
       body: 'Generowany przez klasę PHP na serwerze. Umożliwia odczyt plików, zapytania do bazy danych, korzystanie z usług lub modyfikację treści strony podczas renderowania.'
 
 pt_BR:
-  page_title: Demonstração
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -358,7 +358,7 @@ pt_BR:
       body: 'Produzido por uma classe PHP no servidor. Permite ler arquivos, consultar o banco de dados, usar serviços ou alterar o conteúdo da página durante a renderização.'
 
 ru:
-  page_title: Демо
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -379,7 +379,7 @@ ru:
       body: 'Создан классом PHP на сервере. Позволяет читать файлы, запрашивать базу данных, использовать сервисы или изменять содержимое страницы во время рендеринга.'
 
 th:
-  page_title: เดโม
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -400,7 +400,7 @@ th:
       body: 'สร้างโดยคลาส PHP บนเซิร์ฟเวอร์ ช่วยให้สามารถอ่านไฟล์ สอบถามฐานข้อมูล ใช้บริการ หรือแก้ไขเนื้อหาหน้าในระหว่างการเรนเดอร์.'
 
 tr:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -421,7 +421,7 @@ tr:
       body: 'Sunucuda bir PHP sınıfı tarafından üretilir. Dosyaları okuma, veritabanını sorgulama, hizmetleri kullanma veya sayfa içeriğini oluşturma sırasında değiştirme imkanı sağlar.'
 
 ur:
-  page_title: ڈیمو
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -442,7 +442,7 @@ ur:
       body: 'سرور پر ایک PHP کلاس کے ذریعے تیار کردہ۔ فائلیں پڑھنے، ڈیٹا بیس کی تلاش، خدمات استعمال کرنے، یا رینڈرنگ کے دوران صفحے کے مواد میں تبدیلی کی اجازت دیتا ہے۔'
 
 vi:
-  page_title: Demo
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -463,7 +463,7 @@ vi:
       body: 'Được tạo ra bởi một lớp PHP trên máy chủ. Cho phép đọc tệp, truy vấn cơ sở dữ liệu, sử dụng dịch vụ hoặc thay đổi nội dung trang trong quá trình kết xuất.'
 
 zh:
-  page_title: 演示
+  page_title: Loader
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
