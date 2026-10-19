@@ -54,7 +54,7 @@ ar:
       failed: 'بعضها فشل'
 
 bn:
-  page_title: পরীক্ষা
+  page_title: 'লোডার পরীক্ষাসমূহ'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: প্রথম
@@ -63,6 +63,9 @@ bn:
   secondGroup:
     first: প্রথম
   report:
+    idle: 'এখনো চালানো হয়নি'
+    run: চালান
+    run_again: 'পুনরায় চালান'
     passed: 'পাস হয়েছে'
     failed: 'ফেল হয়েছে'
     expected: প্রত্যাশিত
@@ -77,7 +80,7 @@ bn:
       failed: 'কিছু ফেল হয়েছে'
 
 de:
-  page_title: Tests
+  page_title: Ladeprüfungen
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Erster
@@ -86,6 +89,9 @@ de:
   secondGroup:
     first: Erster
   report:
+    idle: 'Noch nicht ausgeführt'
+    run: Ausführen
+    run_again: 'Erneut ausführen'
     passed: Bestanden
     failed: Fehlgeschlagen
     expected: Erwartet
@@ -100,7 +106,7 @@ de:
       failed: 'Einige fehlgeschlagen'
 
 es:
-  page_title: Pruebas
+  page_title: 'Pruebas de cargador'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Primero
@@ -109,6 +115,9 @@ es:
   secondGroup:
     first: Primero
   report:
+    idle: 'No se ha ejecutado aún'
+    run: Ejecutar
+    run_again: 'Ejecutar de nuevo'
     passed: Aprobado
     failed: Fallido
     expected: Esperado
@@ -123,7 +132,7 @@ es:
       failed: 'Algunos fallaron'
 
 fa:
-  page_title: آزمون‌ها
+  page_title: 'تست‌های بارگذاری'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: اول
@@ -132,6 +141,9 @@ fa:
   secondGroup:
     first: اول
   report:
+    idle: 'هنوز اجرا نشده'
+    run: اجرا
+    run_again: 'دوباره اجرا'
     passed: 'قبول شد'
     failed: 'رد شد'
     expected: 'انتظار می‌رفت'
@@ -146,7 +158,7 @@ fa:
       failed: 'برخی رد شدند'
 
 fi:
-  page_title: Testit
+  page_title: Lataustestit
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Ensimmäinen
@@ -155,6 +167,9 @@ fi:
   secondGroup:
     first: Ensimmäinen
   report:
+    idle: 'Ei vielä suoritettu'
+    run: Suorita
+    run_again: 'Suorita uudelleen'
     passed: Hyväksytty
     failed: Hylätty
     expected: Odotettu
@@ -195,7 +210,7 @@ fr:
       failed: 'Des échecs'
 
 he:
-  page_title: מבחנים
+  page_title: 'בדיקות לודר'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: ראשון
@@ -204,6 +219,9 @@ he:
   secondGroup:
     first: ראשון
   report:
+    idle: 'עדיין לא רץ'
+    run: רץ
+    run_again: 'רץ שוב'
     passed: עבר
     failed: נכשל
     expected: צפוי
@@ -218,7 +236,7 @@ he:
       failed: 'חלק נכשלו'
 
 hi:
-  page_title: परीक्षण
+  page_title: 'लोडर परीक्षण'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: पहला
@@ -227,6 +245,9 @@ hi:
   secondGroup:
     first: पहला
   report:
+    idle: 'अभी तक नहीं चलाया गया'
+    run: चलाएँ
+    run_again: 'फिर से चलाएँ'
     passed: पास
     failed: फेल
     expected: अपेक्षित
@@ -241,7 +262,7 @@ hi:
       failed: 'कुछ फेल'
 
 id:
-  page_title: 'Uji Coba'
+  page_title: 'Tes pemuat'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Pertama
@@ -250,6 +271,9 @@ id:
   secondGroup:
     first: Pertama
   report:
+    idle: 'Belum dijalankan'
+    run: Jalankan
+    run_again: 'Jalankan lagi'
     passed: Lulus
     failed: Gagal
     expected: Diharapkan
@@ -264,7 +288,7 @@ id:
       failed: 'Beberapa gagal'
 
 it:
-  page_title: Test
+  page_title: 'Test di caricamento'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Primo
@@ -273,6 +297,9 @@ it:
   secondGroup:
     first: Primo
   report:
+    idle: 'Non eseguito ancora'
+    run: Esegui
+    run_again: 'Esegui di nuovo'
     passed: Superato
     failed: Fallito
     expected: Atteso
@@ -287,7 +314,7 @@ it:
       failed: 'Alcuni falliti'
 
 ja:
-  page_title: テスト
+  page_title: ローダーテスト
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: 最初
@@ -296,6 +323,9 @@ ja:
   secondGroup:
     first: 最初
   report:
+    idle: まだ実行されていません
+    run: 実行
+    run_again: 再実行
     passed: 成功
     failed: 失敗
     expected: 期待される結果
@@ -310,7 +340,7 @@ ja:
       failed: いくつかが失敗
 
 ko:
-  page_title: 테스트
+  page_title: '로더 테스트'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: '첫 번째'
@@ -319,6 +349,9 @@ ko:
   secondGroup:
     first: '첫 번째'
   report:
+    idle: '아직 실행되지 않음'
+    run: 실행
+    run_again: '다시 실행'
     passed: 통과
     failed: 실패
     expected: '예상된 결과'
@@ -333,7 +366,7 @@ ko:
       failed: '일부 실패'
 
 nl:
-  page_title: Tests
+  page_title: 'Loader tests'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Eerste
@@ -342,6 +375,9 @@ nl:
   secondGroup:
     first: Eerste
   report:
+    idle: 'Nog niet uitgevoerd'
+    run: Uitvoeren
+    run_again: 'Opnieuw uitvoeren'
     passed: Geslaagd
     failed: Mislukt
     expected: Verwacht
@@ -356,7 +392,7 @@ nl:
       failed: 'Sommige mislukt'
 
 pl:
-  page_title: Testy
+  page_title: 'Testy ładowania'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Pierwszy
@@ -365,6 +401,9 @@ pl:
   secondGroup:
     first: Pierwszy
   report:
+    idle: 'Nie uruchomiono jeszcze'
+    run: Uruchom
+    run_again: 'Uruchom ponownie'
     passed: Zaliczono
     failed: 'Nie zaliczono'
     expected: Oczekiwano
@@ -379,7 +418,7 @@ pl:
       failed: 'Niektóre niezaliczone'
 
 pt_BR:
-  page_title: Testes
+  page_title: 'Testes de carregamento'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Primeiro
@@ -388,6 +427,9 @@ pt_BR:
   secondGroup:
     first: Primeiro
   report:
+    idle: 'Ainda não executado'
+    run: Executar
+    run_again: 'Executar novamente'
     passed: Aprovado
     failed: Reprovado
     expected: Esperado
@@ -402,7 +444,7 @@ pt_BR:
       failed: 'Alguns reprovados'
 
 ru:
-  page_title: Тесты
+  page_title: 'Тесты загрузчика'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Первый
@@ -411,6 +453,9 @@ ru:
   secondGroup:
     first: Первый
   report:
+    idle: 'Еще не запущено'
+    run: Запустить
+    run_again: 'Запустить снова'
     passed: Пройдено
     failed: 'Не пройдено'
     expected: Ожидалось
@@ -425,7 +470,7 @@ ru:
       failed: 'Некоторые не пройдены'
 
 th:
-  page_title: การทดสอบ
+  page_title: การทดสอบโหลด
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: แรก
@@ -434,6 +479,9 @@ th:
   secondGroup:
     first: แรก
   report:
+    idle: ยังไม่ได้ดำเนินการ
+    run: เริ่มต้น
+    run_again: เริ่มอีกครั้ง
     passed: ผ่าน
     failed: ไม่ผ่าน
     expected: ที่คาดหวัง
@@ -448,7 +496,7 @@ th:
       failed: บางส่วนไม่ผ่าน
 
 tr:
-  page_title: Testler
+  page_title: 'Yükleyici testleri'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: Birinci
@@ -457,6 +505,9 @@ tr:
   secondGroup:
     first: Birinci
   report:
+    idle: 'Henüz çalıştırılmadı'
+    run: Çalıştır
+    run_again: 'Tekrar çalıştır'
     passed: Geçti
     failed: Başarısız
     expected: Beklenen
@@ -471,7 +522,7 @@ tr:
       failed: 'Bazıları başarısız oldu'
 
 ur:
-  page_title: ٹیسٹ
+  page_title: 'لوڈر ٹیسٹ'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: پہلا
@@ -480,6 +531,9 @@ ur:
   secondGroup:
     first: پہلا
   report:
+    idle: 'ابھی تک نہیں چلایا گیا'
+    run: چلائیں
+    run_again: 'پھر سے چلائیں'
     passed: پاس
     failed: ناکام
     expected: متوقع
@@ -494,7 +548,7 @@ ur:
       failed: 'کچھ ناکام'
 
 vi:
-  page_title: 'Bài kiểm tra'
+  page_title: 'Kiểm tra tải'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: 'Đầu tiên'
@@ -503,6 +557,9 @@ vi:
   secondGroup:
     first: 'Đầu tiên'
   report:
+    idle: 'Chưa chạy'
+    run: Chạy
+    run_again: 'Chạy lại'
     passed: 'Đã qua'
     failed: 'Thất bại'
     expected: 'Dự kiến'
