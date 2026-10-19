@@ -17,7 +17,7 @@ final class DemoController extends AbstractPagesController
 
     final public const ROUTE_INDEX = VariableHelper::INDEX;
 
-    private bool $useJs = true;
+    private const bool USE_JS = true;
 
     #[MenuItem('loader_demo', 0)]
     #[Route(path: '', name: self::ROUTE_INDEX)]
@@ -31,7 +31,7 @@ final class DemoController extends AbstractPagesController
     protected function configureRenderPass(
         RenderPass $renderPass
     ): RenderPass {
-        $renderPass->setUseJs($this->useJs);
+        $renderPass->setUseJs(self::USE_JS);
 
         return $renderPass;
     }
