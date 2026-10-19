@@ -28,7 +28,7 @@ en:
       failed: Some failed
 
 ar:
-  page_title: الاختبارات
+  page_title: 'اختبارات التحميل'
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: الأولى
@@ -37,6 +37,9 @@ ar:
   secondGroup:
     first: الأولى
   report:
+    idle: 'لم يتم تشغيلها بعد'
+    run: تشغيل
+    run_again: 'إعادة التشغيل'
     passed: ناجح
     failed: فشل
     expected: متوقع
@@ -514,7 +517,7 @@ vi:
       failed: 'Một số đã thất bại'
 
 zh:
-  page_title: 测试
+  page_title: 加载器测试
   page_icon: 'ph:bold/test-tube'
   firstGroup:
     first: 第一
@@ -523,6 +526,9 @@ zh:
   secondGroup:
     first: 第一
   report:
+    idle: 尚未运行
+    run: 运行
+    run_again: 再次运行
     passed: 通过
     failed: 失败
     expected: 预期

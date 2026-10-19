@@ -22,7 +22,7 @@ en:
       body: Produced by a PHP class on the server. Allows reading files, querying the database, using services, or altering page content during rendering.
 
 ar:
-  page_title: Loader
+  page_title: تحميل
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -148,7 +148,7 @@ fi:
       body: 'Tuotettu PHP-luokan avulla palvelimella. Mahdollistaa tiedostojen lukemisen, tietokannan kyselyt, palveluiden käytön tai sivun sisällön muokkaamisen renderöinnin aikana.'
 
 fr:
-  page_title: Loader
+  page_title: Chargeur
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:
@@ -463,7 +463,7 @@ vi:
       body: 'Được tạo ra bởi một lớp PHP trên máy chủ. Cho phép đọc tệp, truy vấn cơ sở dữ liệu, sử dụng dịch vụ hoặc thay đổi nội dung trang trong quá trình kết xuất.'
 
 zh:
-  page_title: Loader
+  page_title: 加载中
   page_icon: 'ph:bold/puzzle-piece'
   section:
     init:

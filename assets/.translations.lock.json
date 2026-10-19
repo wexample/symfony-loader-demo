@@ -1135,7 +1135,7 @@
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "a48e24a494348726525020c599db78e4",
+            "hash": "8e6d836fce7118a13f40817c6cb8ce4f",
             "engine": "syrtis"
         },
         "section.init.intro": {
@@ -1435,7 +1435,7 @@
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "a48e24a494348726525020c599db78e4",
+            "hash": "8e6d836fce7118a13f40817c6cb8ce4f",
             "engine": "syrtis"
         },
         "section.init.intro": {
@@ -2185,7 +2185,7 @@
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "a48e24a494348726525020c599db78e4",
+            "hash": "8e6d836fce7118a13f40817c6cb8ce4f",
             "engine": "syrtis"
         },
         "section.init.intro": {
@@ -2341,7 +2341,7 @@
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "1f2dd868da020ca2bc2497322e5bc4b9",
+            "hash": "38c5bd85c7bea9347789de04e800b7d4",
             "engine": "syrtis"
         },
         "report.empty": {
@@ -2368,12 +2368,24 @@
             "hash": "95d89fb404655bbc1a720ef90f096ae3",
             "engine": "syrtis"
         },
+        "report.idle": {
+            "hash": "c551b430a4b0d843ea94764931966e5f",
+            "engine": "syrtis"
+        },
         "report.passed": {
             "hash": "7643a1ef268873d5d8f4a103640753b4",
             "engine": "syrtis"
         },
         "report.received": {
             "hash": "d98eeb4333547bd1231776f6d5d3d9ab",
+            "engine": "syrtis"
+        },
+        "report.run": {
+            "hash": "2fb2bcd25b18b0291d89e3a2dc839e73",
+            "engine": "syrtis"
+        },
+        "report.run_again": {
+            "hash": "2d07d33352f127d6e3166588d452cb33",
             "engine": "syrtis"
         },
         "report.state.failed": {
@@ -3747,7 +3759,7 @@
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "1f2dd868da020ca2bc2497322e5bc4b9",
+            "hash": "38c5bd85c7bea9347789de04e800b7d4",
             "engine": "syrtis"
         },
         "report.empty": {
@@ -3774,12 +3786,24 @@
             "hash": "95d89fb404655bbc1a720ef90f096ae3",
             "engine": "syrtis"
         },
+        "report.idle": {
+            "hash": "c551b430a4b0d843ea94764931966e5f",
+            "engine": "syrtis"
+        },
         "report.passed": {
             "hash": "7643a1ef268873d5d8f4a103640753b4",
             "engine": "syrtis"
         },
         "report.received": {
             "hash": "d98eeb4333547bd1231776f6d5d3d9ab",
+            "engine": "syrtis"
+        },
+        "report.run": {
+            "hash": "2fb2bcd25b18b0291d89e3a2dc839e73",
+            "engine": "syrtis"
+        },
+        "report.run_again": {
+            "hash": "2d07d33352f127d6e3166588d452cb33",
             "engine": "syrtis"
         },
         "report.state.failed": {
