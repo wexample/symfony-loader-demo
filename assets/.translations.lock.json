@@ -458,7 +458,8 @@
     "layouts/demo/layout.fr.yml": {
         "menu_design_system.navigation.group.generic.title": {
             "hash": "1bd8346cbeee50bc1353c0c571a09245",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "layouts/demo/layout.he.yml": {
@@ -1404,7 +1405,8 @@
         },
         "init.class.title": {
             "hash": "c017cd359e3e750666d08bdc3fb2193a",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "init.parent.body": {
             "hash": "47b589a70b2959d3be27344860f5d084",
@@ -1412,7 +1414,8 @@
         },
         "init.parent.title": {
             "hash": "5abc4316c368ad7dfca001bc5f2c66b7",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "init.previous.body": {
             "hash": "84cc46cf438966527f85eb1f61c91ff2",
@@ -1420,7 +1423,8 @@
         },
         "init.previous.title": {
             "hash": "34d917a7bef689a5878ce4fe2f26cde4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "init.server_side.body": {
             "hash": "902ecf2da26f6ddf52a872f0f4e49dab",
@@ -1428,7 +1432,8 @@
         },
         "init.server_side.title": {
             "hash": "1e7485305811e3f64ef2e6890e89fc2c",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "page_icon": {
             "hash": "f0a3ff380e7b3aec1b52cc8be43b1ad7",
@@ -1436,7 +1441,8 @@
         },
         "page_title": {
             "hash": "8e6d836fce7118a13f40817c6cb8ce4f",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "section.init.intro": {
             "hash": "d8643fb9732313c7a541fd762ec991ba",
@@ -1444,7 +1450,8 @@
         },
         "section.init.title": {
             "hash": "d01bfd7bb05752d25d1f806c8556f220",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/demo/index.he.yml": {
