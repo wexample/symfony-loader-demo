@@ -1,6 +1,6 @@
 # symfony_loader_demo
 
-Version: 6.1.15
+Version: 6.1.16
 
 A dynamic rendering system for Symfony
 
