@@ -6,7 +6,7 @@ git:
 global:
   name: symfony_loader_demo
   type: app
-  version: 6.1.19
+  version: 6.1.20
 wex:
   migration: 1
   version: 6.0.179
